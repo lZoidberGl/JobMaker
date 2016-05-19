@@ -191,6 +191,24 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Job Generator.
+        '''</summary>
+        Friend Shared ReadOnly Property ProgramName() As String
+            Get
+                Return ResourceManager.GetString("ProgramName", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Генератор профессий.
+        '''</summary>
+        Friend Shared ReadOnly Property ProgramNameRU() As String
+            Get
+                Return ResourceManager.GetString("ProgramNameRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Image source.
         '''</summary>
         Friend Shared ReadOnly Property SourceSite() As String

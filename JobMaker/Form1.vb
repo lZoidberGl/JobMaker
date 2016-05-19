@@ -4,8 +4,9 @@ Imports JobMaker.My.Resources
 Imports JobMaker.ModelsSelectorForm
 
 Public Class Form1
+    'Standart size 640; 400
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ''---------SET LOCALIZATION----------''
+        ''↓---------SETS LOCALIZATION----------↓''
 
         If (CultureInfo.InstalledUICulture.EnglishName = "Russian (Russia)") Then
             Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("ru-RU")
@@ -13,13 +14,16 @@ Public Class Form1
             Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en-US")
         End If
 
-        ''---------SET LOCALIZATION----------''
+        ''↑---------SETS LOCALIZATION----------↑''
+        Me.Width = 640
+        Me.Height = 400
         LoadDefaults()
     End Sub
 
     Private Sub LoadDefaults()
+        ''↓---------USES LOCALIZATION----------↓''
         If (Thread.CurrentThread.CurrentUICulture Is CultureInfo.GetCultureInfo("en-US")) Then
-
+            Me.Text = Localization.ProgramName
             teamname.Text = Localization.TeamName
             jobname.Text = Localization.JobName
             jobsalary.Text = Localization.JobSalary
@@ -34,7 +38,7 @@ Public Class Form1
         End If
 
         If (Thread.CurrentThread.CurrentUICulture Is CultureInfo.GetCultureInfo("ru-RU")) Then
-
+            Me.Text = Localization.ProgramNameRU
             teamname.Text = Localization.TeamNameRU
             jobname.Text = Localization.JobNameRU
             jobsalary.Text = Localization.JobSalaryRU
@@ -47,6 +51,7 @@ Public Class Form1
             ModelsSelectorForm.sourcesite.Text = Localization.SourceSiteRU
             GenCode.Text = Localization.GenerateRU
         End If
+        ''↑---------USES LOCALIZATION----------↑''
     End Sub
 
     Private Sub button1_Click(sender As Object, e As EventArgs) Handles BrowseModels.Click
@@ -73,10 +78,25 @@ Public Class Form1
     End Sub
 
     Private Sub GenCode_Click(sender As Object, e As EventArgs) Handles GenCode.Click
+        ExtendMe()
         GenerateCode()
     End Sub
 
     Private Sub GenerateCode()
+        CodeBox.Text = "TEAM_" + TeamBox.Text + " = DarkRP.createJob(" + Chr(34) + JobNameBox.Text + Chr(34) + ",{"
+        CodeBox.Text = CodeBox.Text + Environment.NewLine + "})"
+    End Sub
 
+    Private Sub ExtendMe()
+        Timer.Start()
+        CodeBox.Visible = True
+    End Sub
+
+    Private Sub Timer_Tick(sender As Object, e As EventArgs) Handles Timer.Tick
+        If Me.Width < 1150 Then
+            Me.Width = Width + 15
+        Else
+            Timer.Stop()
+        End If
     End Sub
 End Class

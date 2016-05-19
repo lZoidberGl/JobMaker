@@ -117,10 +117,627 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 1</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 27</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LangSelector.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 8.25pt, style=Bold</value>
+  </data>
+  <data name="LangSelector.Items" xml:space="preserve">
+    <value>Русский</value>
+  </data>
+  <data name="LangSelector.Items1" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="LangSelector.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="LangSelector.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 27</value>
+  </data>
+  <data name="LangSelector.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;LangSelector.Name" xml:space="preserve">
+    <value>LangSelector</value>
+  </data>
+  <data name="&gt;&gt;LangSelector.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LangSelector.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LangSelector.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BrowseModels.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BrowseModels.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 197</value>
+  </data>
+  <data name="BrowseModels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 29</value>
+  </data>
+  <data name="BrowseModels.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="BrowseModels.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;BrowseModels.Name" xml:space="preserve">
+    <value>BrowseModels</value>
+  </data>
+  <data name="&gt;&gt;BrowseModels.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BrowseModels.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BrowseModels.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="VoteNo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VoteNo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="VoteNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 134</value>
+  </data>
+  <data name="VoteNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 17</value>
+  </data>
+  <data name="VoteNo.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="VoteNo.Text" xml:space="preserve">
+    <value>#NO</value>
+  </data>
+  <data name="&gt;&gt;VoteNo.Name" xml:space="preserve">
+    <value>VoteNo</value>
+  </data>
+  <data name="&gt;&gt;VoteNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VoteNo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;VoteNo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="VoteYes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VoteYes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="VoteYes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>507, 134</value>
+  </data>
+  <data name="VoteYes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="VoteYes.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="VoteYes.Text" xml:space="preserve">
+    <value>#YES</value>
+  </data>
+  <data name="&gt;&gt;VoteYes.Name" xml:space="preserve">
+    <value>VoteYes</value>
+  </data>
+  <data name="&gt;&gt;VoteYes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VoteYes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;VoteYes.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="JobCategoryBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9pt, style=Bold</value>
+  </data>
+  <data name="JobCategoryBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 232</value>
+  </data>
+  <data name="JobCategoryBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 29</value>
+  </data>
+  <data name="JobCategoryBox.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;JobCategoryBox.Name" xml:space="preserve">
+    <value>JobCategoryBox</value>
+  </data>
+  <data name="&gt;&gt;JobCategoryBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobCategoryBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;JobCategoryBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="JobModelBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9pt, style=Bold</value>
+  </data>
+  <data name="JobModelBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 197</value>
+  </data>
+  <data name="JobModelBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 29</value>
+  </data>
+  <data name="JobModelBox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;JobModelBox.Name" xml:space="preserve">
+    <value>JobModelBox</value>
+  </data>
+  <data name="&gt;&gt;JobModelBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobModelBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;JobModelBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="JobWeaponsBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9pt, style=Bold</value>
+  </data>
+  <data name="JobWeaponsBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 162</value>
+  </data>
+  <data name="JobWeaponsBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 29</value>
+  </data>
+  <data name="JobWeaponsBox.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;JobWeaponsBox.Name" xml:space="preserve">
+    <value>JobWeaponsBox</value>
+  </data>
+  <data name="&gt;&gt;JobWeaponsBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobWeaponsBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;JobWeaponsBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="JobSalaryBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9pt, style=Bold</value>
+  </data>
+  <data name="JobSalaryBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 95</value>
+  </data>
+  <data name="JobSalaryBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 29</value>
+  </data>
+  <data name="JobSalaryBox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;JobSalaryBox.Name" xml:space="preserve">
+    <value>JobSalaryBox</value>
+  </data>
+  <data name="&gt;&gt;JobSalaryBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobSalaryBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;JobSalaryBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="JobNameBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9pt, style=Bold</value>
+  </data>
+  <data name="JobNameBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 60</value>
+  </data>
+  <data name="JobNameBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 29</value>
+  </data>
+  <data name="JobNameBox.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;JobNameBox.Name" xml:space="preserve">
+    <value>JobNameBox</value>
+  </data>
+  <data name="&gt;&gt;JobNameBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobNameBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;JobNameBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="TeamBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9pt, style=Bold</value>
+  </data>
+  <data name="TeamBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 25</value>
+  </data>
+  <data name="TeamBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 29</value>
+  </data>
+  <data name="TeamBox.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;TeamBox.Name" xml:space="preserve">
+    <value>TeamBox</value>
+  </data>
+  <data name="&gt;&gt;TeamBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TeamBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TeamBox.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="jobvote.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="jobvote.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 10pt, style=Bold</value>
+  </data>
+  <data name="jobvote.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="jobvote.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 130</value>
+  </data>
+  <data name="jobvote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 24</value>
+  </data>
+  <data name="jobvote.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="jobvote.Text" xml:space="preserve">
+    <value>#JobVote</value>
+  </data>
+  <data name="&gt;&gt;jobvote.Name" xml:space="preserve">
+    <value>jobvote</value>
+  </data>
+  <data name="&gt;&gt;jobvote.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;jobvote.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;jobvote.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="jobcategory.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="jobcategory.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 10pt, style=Bold</value>
+  </data>
+  <data name="jobcategory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="jobcategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 233</value>
+  </data>
+  <data name="jobcategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 24</value>
+  </data>
+  <data name="jobcategory.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="jobcategory.Text" xml:space="preserve">
+    <value>#JobCategory</value>
+  </data>
+  <data name="&gt;&gt;jobcategory.Name" xml:space="preserve">
+    <value>jobcategory</value>
+  </data>
+  <data name="&gt;&gt;jobcategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;jobcategory.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;jobcategory.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="jobmodels.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="jobmodels.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 10pt, style=Bold</value>
+  </data>
+  <data name="jobmodels.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="jobmodels.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 198</value>
+  </data>
+  <data name="jobmodels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 24</value>
+  </data>
+  <data name="jobmodels.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="jobmodels.Text" xml:space="preserve">
+    <value>#JobModels</value>
+  </data>
+  <data name="&gt;&gt;jobmodels.Name" xml:space="preserve">
+    <value>jobmodels</value>
+  </data>
+  <data name="&gt;&gt;jobmodels.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;jobmodels.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;jobmodels.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="jobsalary.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="jobsalary.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 10pt, style=Bold</value>
+  </data>
+  <data name="jobsalary.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="jobsalary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 96</value>
+  </data>
+  <data name="jobsalary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 24</value>
+  </data>
+  <data name="jobsalary.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="jobsalary.Text" xml:space="preserve">
+    <value>#JobSalary</value>
+  </data>
+  <data name="&gt;&gt;jobsalary.Name" xml:space="preserve">
+    <value>jobsalary</value>
+  </data>
+  <data name="&gt;&gt;jobsalary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;jobsalary.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;jobsalary.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="jobweapons.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="jobweapons.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 10pt, style=Bold</value>
+  </data>
+  <data name="jobweapons.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="jobweapons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 163</value>
+  </data>
+  <data name="jobweapons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 24</value>
+  </data>
+  <data name="jobweapons.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="jobweapons.Text" xml:space="preserve">
+    <value>#JobWeapons</value>
+  </data>
+  <data name="&gt;&gt;jobweapons.Name" xml:space="preserve">
+    <value>jobweapons</value>
+  </data>
+  <data name="&gt;&gt;jobweapons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;jobweapons.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;jobweapons.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="jobname.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="jobname.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 10pt, style=Bold</value>
+  </data>
+  <data name="jobname.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="jobname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 61</value>
+  </data>
+  <data name="jobname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 24</value>
+  </data>
+  <data name="jobname.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="jobname.Text" xml:space="preserve">
+    <value>#JobName</value>
+  </data>
+  <data name="&gt;&gt;jobname.Name" xml:space="preserve">
+    <value>jobname</value>
+  </data>
+  <data name="&gt;&gt;jobname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;jobname.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;jobname.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="teamname.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="teamname.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 10pt, style=Bold</value>
+  </data>
+  <data name="teamname.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="teamname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 26</value>
+  </data>
+  <data name="teamname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 24</value>
+  </data>
+  <data name="teamname.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="teamname.Text" xml:space="preserve">
+    <value>#TEAM</value>
+  </data>
+  <data name="&gt;&gt;teamname.Name" xml:space="preserve">
+    <value>teamname</value>
+  </data>
+  <data name="&gt;&gt;teamname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;teamname.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;teamname.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="VoteResult.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VoteResult.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="VoteResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>442, 137</value>
+  </data>
+  <data name="VoteResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="VoteResult.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="VoteResult.Text" xml:space="preserve">
+    <value>VoteResult</value>
+  </data>
+  <data name="VoteResult.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;VoteResult.Name" xml:space="preserve">
+    <value>VoteResult</value>
+  </data>
+  <data name="&gt;&gt;VoteResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VoteResult.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;VoteResult.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
   <metadata name="Timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="GenCode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 12pt, style=Bold</value>
+  </data>
+  <data name="GenCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 322</value>
+  </data>
+  <data name="GenCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 40</value>
+  </data>
+  <data name="GenCode.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="GenCode.Text" xml:space="preserve">
+    <value>#Generate</value>
+  </data>
+  <data name="&gt;&gt;GenCode.Name" xml:space="preserve">
+    <value>GenCode</value>
+  </data>
+  <data name="&gt;&gt;GenCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GenCode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GenCode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CodeBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 0</value>
+  </data>
+  <data name="CodeBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>502, 361</value>
+  </data>
+  <data name="CodeBox.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="CodeBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CodeBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CodeBox.Name" xml:space="preserve">
+    <value>CodeBox</value>
+  </data>
+  <data name="&gt;&gt;CodeBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CodeBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CodeBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1134, 361</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAA
@@ -144,5 +761,17 @@
         mQB3sJkA4AcAAMADAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAB
         AADAAwAA4AcAAA==
 </value>
+  </data>
+  <data name="&gt;&gt;Timer.Name" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="&gt;&gt;Timer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

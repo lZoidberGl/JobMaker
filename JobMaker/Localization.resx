@@ -159,6 +159,12 @@
   <data name="JobWeaponsRU" xml:space="preserve">
     <value>Оружия</value>
   </data>
+  <data name="ProgramName" xml:space="preserve">
+    <value>Job Generator</value>
+  </data>
+  <data name="ProgramNameRU" xml:space="preserve">
+    <value>Генератор профессий</value>
+  </data>
   <data name="SourceSite" xml:space="preserve">
     <value>Image source</value>
   </data>
