@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E3A9DB8E-33CD-4015-9824-66F8D7E1A0B1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>JobMaker.My.MyApplication</StartupObject>
+    <RootNamespace>JobMaker</RootNamespace>
+    <AssemblyName>JobMaker</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>JobMaker.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>JobMaker.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Localization.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Localization.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Models.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Models.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ModelsSelectorForm.Designer.vb">
+      <DependentUpon>ModelsSelectorForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModelsSelectorForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Localization.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Models.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Models.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModelsSelectorForm.resx">
+      <DependentUpon>ModelsSelectorForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alyx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barney.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\combine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\combineelite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\combineprison.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corpse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\css_arctic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\css_gasmask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\css_guerilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\css_leet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\css_phoenix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\css_riot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\css_swat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\css_urban.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dod_american.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dod_german.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eli.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\female01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\female02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\female03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\female04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\female05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\female06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\female07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\female08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\female09.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\female10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\female11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\female12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hostage01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hostage02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hostage03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hostage04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon175x175.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kleiner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnusson.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male09.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medic01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medic02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medic03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medic04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medic05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medic06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medic07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medic08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medic09.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medic10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medic11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medic12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medic13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medic14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medic15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mossman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mossmanarctic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\odessa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\police.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\policefem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refugee01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refugee02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refugee03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refugee04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skeleton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stripped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zombie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zombiefast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zombine.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
