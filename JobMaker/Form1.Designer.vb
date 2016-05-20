@@ -46,7 +46,15 @@ Partial Class Form1
         Me.Timer = New System.Windows.Forms.Timer(Me.components)
         Me.GenCode = New System.Windows.Forms.Button()
         Me.CodeBox = New System.Windows.Forms.RichTextBox()
+        Me.ColorLabel = New System.Windows.Forms.Label()
+        Me.ColorBox = New System.Windows.Forms.TextBox()
+        Me.Maximum = New System.Windows.Forms.NumericUpDown()
+        Me.jobmax = New System.Windows.Forms.Label()
+        Me.CommandBox = New System.Windows.Forms.TextBox()
+        Me.jobcommand = New System.Windows.Forms.Label()
+        Me.ColorPick = New System.Windows.Forms.Button()
         CType(Me.pictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Maximum, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'pictureBox1
@@ -180,15 +188,60 @@ Partial Class Form1
         resources.ApplyResources(Me.CodeBox, "CodeBox")
         Me.CodeBox.Name = "CodeBox"
         '
+        'ColorLabel
+        '
+        resources.ApplyResources(Me.ColorLabel, "ColorLabel")
+        Me.ColorLabel.ForeColor = System.Drawing.Color.White
+        Me.ColorLabel.Name = "ColorLabel"
+        '
+        'ColorBox
+        '
+        resources.ApplyResources(Me.ColorBox, "ColorBox")
+        Me.ColorBox.Name = "ColorBox"
+        '
+        'Maximum
+        '
+        resources.ApplyResources(Me.Maximum, "Maximum")
+        Me.Maximum.Name = "Maximum"
+        '
+        'jobmax
+        '
+        resources.ApplyResources(Me.jobmax, "jobmax")
+        Me.jobmax.ForeColor = System.Drawing.Color.White
+        Me.jobmax.Name = "jobmax"
+        '
+        'CommandBox
+        '
+        resources.ApplyResources(Me.CommandBox, "CommandBox")
+        Me.CommandBox.Name = "CommandBox"
+        '
+        'jobcommand
+        '
+        resources.ApplyResources(Me.jobcommand, "jobcommand")
+        Me.jobcommand.ForeColor = System.Drawing.Color.White
+        Me.jobcommand.Name = "jobcommand"
+        '
+        'ColorPick
+        '
+        resources.ApplyResources(Me.ColorPick, "ColorPick")
+        Me.ColorPick.Name = "ColorPick"
+        Me.ColorPick.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Highlight
+        Me.Controls.Add(Me.CommandBox)
+        Me.Controls.Add(Me.jobcommand)
+        Me.Controls.Add(Me.jobmax)
+        Me.Controls.Add(Me.Maximum)
+        Me.Controls.Add(Me.ColorLabel)
         Me.Controls.Add(Me.CodeBox)
         Me.Controls.Add(Me.GenCode)
         Me.Controls.Add(Me.pictureBox1)
         Me.Controls.Add(Me.LangSelector)
+        Me.Controls.Add(Me.ColorPick)
         Me.Controls.Add(Me.BrowseModels)
         Me.Controls.Add(Me.VoteNo)
         Me.Controls.Add(Me.VoteYes)
@@ -197,6 +250,7 @@ Partial Class Form1
         Me.Controls.Add(Me.JobWeaponsBox)
         Me.Controls.Add(Me.JobSalaryBox)
         Me.Controls.Add(Me.JobNameBox)
+        Me.Controls.Add(Me.ColorBox)
         Me.Controls.Add(Me.TeamBox)
         Me.Controls.Add(Me.jobvote)
         Me.Controls.Add(Me.jobcategory)
@@ -209,6 +263,7 @@ Partial Class Form1
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Form1"
         CType(Me.pictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Maximum, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -235,4 +290,11 @@ Partial Class Form1
     Private WithEvents Timer As Timer
     Friend WithEvents GenCode As Button
     Friend WithEvents CodeBox As RichTextBox
+    Private WithEvents ColorLabel As Label
+    Private WithEvents ColorBox As TextBox
+    Friend WithEvents Maximum As NumericUpDown
+    Private WithEvents jobmax As Label
+    Private WithEvents CommandBox As TextBox
+    Private WithEvents jobcommand As Label
+    Private WithEvents ColorPick As Button
 End Class

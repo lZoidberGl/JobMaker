@@ -2,6 +2,8 @@
 Imports System.Threading
 Imports JobMaker.My.Resources
 Imports JobMaker.ModelsSelectorForm
+Imports System.IO
+Imports System.Text
 
 Public Class Form1
     'Standart size 640; 400
@@ -16,7 +18,7 @@ Public Class Form1
 
         ''↑---------SETS LOCALIZATION----------↑''
         Me.Width = 640
-        Me.Height = 400
+        Me.Height = 500
         LoadDefaults()
     End Sub
 
@@ -35,6 +37,9 @@ Public Class Form1
             VoteNo.Text = Localization.VoteNo
             ModelsSelectorForm.sourcesite.Text = Localization.SourceSite
             GenCode.Text = Localization.Generate
+            ColorLabel.Text = Localization.JobColor
+            jobmax.Text = Localization.JobMax
+            jobcommand.Text = Localization.JobCommand
         End If
 
         If (Thread.CurrentThread.CurrentUICulture Is CultureInfo.GetCultureInfo("ru-RU")) Then
@@ -50,6 +55,9 @@ Public Class Form1
             VoteNo.Text = Localization.VoteNoRU
             ModelsSelectorForm.sourcesite.Text = Localization.SourceSiteRU
             GenCode.Text = Localization.GenerateRU
+            ColorLabel.Text = Localization.JobColorRU
+            jobmax.Text = Localization.JobMaxRU
+            jobcommand.Text = Localization.JobCommandRU
         End If
         ''↑---------USES LOCALIZATION----------↑''
     End Sub
@@ -83,7 +91,11 @@ Public Class Form1
     End Sub
 
     Private Sub GenerateCode()
+        'CodeBox.Text + Environment.NewLine
         CodeBox.Text = "TEAM_" + TeamBox.Text + " = DarkRP.createJob(" + Chr(34) + JobNameBox.Text + Chr(34) + ",{"
+        CodeBox.Text = CodeBox.Text + Environment.NewLine + "	color = Color(" + ColorBox.Text + ",255),"
+        CodeBox.Text = CodeBox.Text + Environment.NewLine + "	model = {" + JobModelBox.Text + "},"
+        CodeBox.Text = CodeBox.Text + Environment.NewLine + "	description = [["
         CodeBox.Text = CodeBox.Text + Environment.NewLine + "})"
     End Sub
 
@@ -99,4 +111,5 @@ Public Class Form1
             Timer.Stop()
         End If
     End Sub
+
 End Class

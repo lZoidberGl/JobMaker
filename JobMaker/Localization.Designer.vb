@@ -101,6 +101,60 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Color for a job.
+        '''</summary>
+        Friend Shared ReadOnly Property JobColor() As String
+            Get
+                Return ResourceManager.GetString("JobColor", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Цвет профессии.
+        '''</summary>
+        Friend Shared ReadOnly Property JobColorRU() As String
+            Get
+                Return ResourceManager.GetString("JobColorRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Command for a job.
+        '''</summary>
+        Friend Shared ReadOnly Property JobCommand() As String
+            Get
+                Return ResourceManager.GetString("JobCommand", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Команда для профессии.
+        '''</summary>
+        Friend Shared ReadOnly Property JobCommandRU() As String
+            Get
+                Return ResourceManager.GetString("JobCommandRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Maximum players.
+        '''</summary>
+        Friend Shared ReadOnly Property JobMax() As String
+            Get
+                Return ResourceManager.GetString("JobMax", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Максимум игроков.
+        '''</summary>
+        Friend Shared ReadOnly Property JobMaxRU() As String
+            Get
+                Return ResourceManager.GetString("JobMaxRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Models for job.
         '''</summary>
         Friend Shared ReadOnly Property JobModels() As String

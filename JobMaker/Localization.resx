@@ -129,6 +129,24 @@
   <data name="JobCategoryRU" xml:space="preserve">
     <value>Категория профессии (DarkRP v2.6.x)</value>
   </data>
+  <data name="JobColor" xml:space="preserve">
+    <value>Color for a job</value>
+  </data>
+  <data name="JobColorRU" xml:space="preserve">
+    <value>Цвет профессии</value>
+  </data>
+  <data name="JobCommand" xml:space="preserve">
+    <value>Command for a job</value>
+  </data>
+  <data name="JobCommandRU" xml:space="preserve">
+    <value>Команда для профессии</value>
+  </data>
+  <data name="JobMax" xml:space="preserve">
+    <value>Maximum players</value>
+  </data>
+  <data name="JobMaxRU" xml:space="preserve">
+    <value>Максимум игроков</value>
+  </data>
   <data name="JobModels" xml:space="preserve">
     <value>Models for job</value>
   </data>
