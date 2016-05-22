@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CopyButton" xml:space="preserve">
+    <value>Copy text</value>
+  </data>
+  <data name="CopyButtonRU" xml:space="preserve">
+    <value>Скопировать текст</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Generate job</value>
   </data>
@@ -140,6 +146,12 @@
   </data>
   <data name="JobCommandRU" xml:space="preserve">
     <value>Команда для профессии</value>
+  </data>
+  <data name="JobDescription" xml:space="preserve">
+    <value>Job description</value>
+  </data>
+  <data name="JobDescriptionRU" xml:space="preserve">
+    <value>Описание профессии</value>
   </data>
   <data name="JobMax" xml:space="preserve">
     <value>Maximum players</value>

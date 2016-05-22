@@ -65,6 +65,24 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Copy text.
+        '''</summary>
+        Friend Shared ReadOnly Property CopyButton() As String
+            Get
+                Return ResourceManager.GetString("CopyButton", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Скопировать текст.
+        '''</summary>
+        Friend Shared ReadOnly Property CopyButtonRU() As String
+            Get
+                Return ResourceManager.GetString("CopyButtonRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Generate job.
         '''</summary>
         Friend Shared ReadOnly Property Generate() As String
@@ -133,6 +151,24 @@ Namespace My.Resources
         Friend Shared ReadOnly Property JobCommandRU() As String
             Get
                 Return ResourceManager.GetString("JobCommandRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Job description.
+        '''</summary>
+        Friend Shared ReadOnly Property JobDescription() As String
+            Get
+                Return ResourceManager.GetString("JobDescription", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Описание профессии.
+        '''</summary>
+        Friend Shared ReadOnly Property JobDescriptionRU() As String
+            Get
+                Return ResourceManager.GetString("JobDescriptionRU", resourceCulture)
             End Get
         End Property
         

@@ -40,6 +40,8 @@ Public Class Form1
             ColorLabel.Text = Localization.JobColor
             jobmax.Text = Localization.JobMax
             jobcommand.Text = Localization.JobCommand
+            DescriptionLabel.Text = Localization.JobDescription
+            CopyAll.Text = Localization.CopyButton
         End If
 
         If (Thread.CurrentThread.CurrentUICulture Is CultureInfo.GetCultureInfo("ru-RU")) Then
@@ -58,6 +60,8 @@ Public Class Form1
             ColorLabel.Text = Localization.JobColorRU
             jobmax.Text = Localization.JobMaxRU
             jobcommand.Text = Localization.JobCommandRU
+            DescriptionLabel.Text = Localization.JobDescriptionRU
+            CopyAll.Text = Localization.CopyButtonRU
         End If
         ''↑---------USES LOCALIZATION----------↑''
     End Sub
@@ -72,17 +76,7 @@ Public Class Form1
         Else
             VoteResult.Text = "false"
         End If
-    End Sub
-
-    Private Sub LangSelector_SelectedIndexChanged(sender As Object, e As EventArgs) Handles LangSelector.SelectedIndexChanged
-        If (LangSelector.SelectedIndex = 0) Then
-            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("ru-RU")
-            LoadDefaults()
-        Else
-            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en-US")
-            LoadDefaults()
-        End If
-
+        GenerateCode()
     End Sub
 
     Private Sub GenCode_Click(sender As Object, e As EventArgs) Handles GenCode.Click
@@ -95,7 +89,15 @@ Public Class Form1
         CodeBox.Text = "TEAM_" + TeamBox.Text + " = DarkRP.createJob(" + Chr(34) + JobNameBox.Text + Chr(34) + ",{"
         CodeBox.Text = CodeBox.Text + Environment.NewLine + "	color = Color(" + ColorBox.Text + ",255),"
         CodeBox.Text = CodeBox.Text + Environment.NewLine + "	model = {" + JobModelBox.Text + "},"
-        CodeBox.Text = CodeBox.Text + Environment.NewLine + "	description = [["
+        CodeBox.Text = CodeBox.Text + Environment.NewLine + "	description = [[" + DescriptionBox.Text + "]],"
+        CodeBox.Text = CodeBox.Text + Environment.NewLine + "	weapons = {" + JobWeaponsBox.Text + "},"
+        CodeBox.Text = CodeBox.Text + Environment.NewLine + "	command = " + Chr(34) + CommandBox.Text + Chr(34) + ","
+        CodeBox.Text = CodeBox.Text + Environment.NewLine + "	max = " + JobMaximum.Text + ","
+        CodeBox.Text = CodeBox.Text + Environment.NewLine + "	salary = " + JobSalaryBox.Text + ","
+        ' CodeBox.Text = CodeBox.Text + Environment.NewLine + "	admin = " + AdminCheck.Text + ","
+        CodeBox.Text = CodeBox.Text + Environment.NewLine + "	vote = " + VoteResult.Text + ","
+        ' CodeBox.Text = CodeBox.Text + Environment.NewLine + "	hasLicense =" + LicenseResult.Text + ","
+        CodeBox.Text = CodeBox.Text + Environment.NewLine + "	category = " + Chr(34) + JobCategoryBox.Text + Chr(34)
         CodeBox.Text = CodeBox.Text + Environment.NewLine + "})"
     End Sub
 
@@ -112,4 +114,144 @@ Public Class Form1
         End If
     End Sub
 
+    Private Sub TeamBox_TextChanged(sender As Object, e As EventArgs) Handles TeamBox.TextChanged
+        If TeamBox.Text IsNot "" Then
+            TeamPanel.BackColor = Color.Lime
+        Else
+            TeamPanel.BackColor = Color.Red
+        End If
+        GenerateCode()
+    End Sub
+
+    Private Sub JobNameBox_TextChanged(sender As Object, e As EventArgs) Handles JobNameBox.TextChanged
+        If JobNameBox.Text IsNot "" Then
+            JobNamePanel.BackColor = Color.Lime
+        Else
+            JobNamePanel.BackColor = Color.Red
+        End If
+        GenerateCode()
+    End Sub
+
+    Private Sub ColorBox_TextChanged(sender As Object, e As EventArgs) Handles ColorBox.TextChanged
+        If ColorBox.Text IsNot "" Then
+            JobColorPanel.BackColor = Color.Lime
+        Else
+            JobColorPanel.BackColor = Color.Red
+        End If
+        GenerateCode()
+    End Sub
+
+    Private Sub JobSalaryBox_TextChanged(sender As Object, e As EventArgs) Handles JobSalaryBox.TextChanged
+        If JobSalaryBox.Text IsNot "" Then
+            SalaryPanel.BackColor = Color.Lime
+        Else
+            SalaryPanel.BackColor = Color.Red
+        End If
+        GenerateCode()
+    End Sub
+
+    Private Sub JobWeaponsBox_TextChanged(sender As Object, e As EventArgs) Handles JobWeaponsBox.TextChanged
+        If JobWeaponsBox.Text IsNot "" Then
+            WeaponsPanel.BackColor = Color.Lime
+        Else
+            WeaponsPanel.BackColor = Color.Red
+        End If
+        GenerateCode()
+    End Sub
+
+    Private Sub JobModelBox_TextChanged(sender As Object, e As EventArgs) Handles JobModelBox.TextChanged
+        If JobModelBox.Text IsNot "" Then
+            ModelsPanel.BackColor = Color.Lime
+        Else
+            ModelsPanel.BackColor = Color.Red
+        End If
+        GenerateCode()
+    End Sub
+
+    Private Sub JobCategoryBox_TextChanged(sender As Object, e As EventArgs) Handles JobCategoryBox.TextChanged
+        If JobCategoryBox.Text IsNot "" Then
+            CategoryPanel.BackColor = Color.Lime
+        Else
+            CategoryPanel.BackColor = Color.Red
+        End If
+        GenerateCode()
+    End Sub
+
+    Private Sub JobMaximum_ValueChanged(sender As Object, e As EventArgs) Handles JobMaximum.ValueChanged
+        GenerateCode()
+    End Sub
+
+    Private Sub CommandBox_TextChanged(sender As Object, e As EventArgs) Handles CommandBox.TextChanged
+        If CommandBox.Text IsNot "" Then
+            CommandPanel.BackColor = Color.Lime
+        Else
+            CommandPanel.BackColor = Color.Red
+        End If
+        GenerateCode()
+    End Sub
+
+    Private Sub DescriptionBox_TextChanged(sender As Object, e As EventArgs) Handles DescriptionBox.TextChanged
+        If DescriptionBox.Text IsNot "" Then
+            DescriptionPanel.BackColor = Color.Lime
+        Else
+            DescriptionPanel.BackColor = Color.Red
+        End If
+        GenerateCode()
+    End Sub
+
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles CopyAll.Click
+        Dim TextCopied As String
+        If (Thread.CurrentThread.CurrentUICulture Is CultureInfo.GetCultureInfo("en-US")) Then
+            TextCopied = "Text copied!"
+        End If
+        If (Thread.CurrentThread.CurrentUICulture Is CultureInfo.GetCultureInfo("ru-RU")) Then
+            TextCopied = "Текст скопирован!"
+        End If
+        CodeBox.SelectAll()
+        CodeBox.Copy()
+        MsgBox(TextCopied)
+    End Sub
+
+    Private Sub RedBar_Scroll(sender As Object, e As ScrollEventArgs) Handles RedBar.Scroll, GreenBar.Scroll, BlueBar.Scroll
+        ResultValue.Text = RedBar.Value & "," & GreenBar.Value & "," & BlueBar.Value
+        ResultColorPanel.BackColor = Color.FromArgb(RedBar.Value, GreenBar.Value, BlueBar.Value)
+    End Sub
+
+    Private Sub acceptcolor_Click(sender As Object, e As EventArgs) Handles acceptcolor.Click
+        ColorBox.Text = ResultValue.Text
+        ColorSwatchPanel.Visible = False
+    End Sub
+
+    Private Sub ColorPick_Click(sender As Object, e As EventArgs) Handles ColorPick.Click
+        ColorSwatchPanel.Visible = True
+    End Sub
+    Dim x, y As Integer
+    Dim newpoint As New Point
+    Private Sub ColorSwatchPanel_MouseDown(sender As Object, e As MouseEventArgs) Handles ColorSwatchPanel.MouseDown
+        x = Control.MousePosition.X - ColorSwatchPanel.Location.X
+        y = Control.MousePosition.Y - ColorSwatchPanel.Location.Y
+    End Sub
+
+    Private Sub NoAccept_Click(sender As Object, e As EventArgs) Handles NoAccept.Click
+        ColorSwatchPanel.Visible = False
+    End Sub
+
+    Private Sub EnglishToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EnglishToolStripMenuItem.Click
+        Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en-US")
+        LoadDefaults()
+    End Sub
+
+    Private Sub РусскийToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles РусскийToolStripMenuItem.Click
+        Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("ru-RU")
+        LoadDefaults()
+    End Sub
+
+    Private Sub ColorSwatchPanel_MouseMove(sender As Object, e As MouseEventArgs) Handles ColorSwatchPanel.MouseMove
+        If e.Button = MouseButtons.Left Then
+            newpoint = MousePosition
+            newpoint.X -= (x)
+            newpoint.Y -= (y)
+            ColorSwatchPanel.Location = newpoint
+        End If
+    End Sub
 End Class
