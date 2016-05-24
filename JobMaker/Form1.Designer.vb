@@ -25,6 +25,9 @@ Partial Class Form1
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.pictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.EnglishToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.РусскийToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BrowseModels = New System.Windows.Forms.Button()
         Me.VoteNo = New System.Windows.Forms.RadioButton()
         Me.VoteYes = New System.Windows.Forms.RadioButton()
@@ -76,15 +79,22 @@ Partial Class Form1
         Me.GreenBar = New System.Windows.Forms.HScrollBar()
         Me.RedBar = New System.Windows.Forms.HScrollBar()
         Me.ResultColorPanel = New System.Windows.Forms.Panel()
-        Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
-        Me.EnglishToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.РусскийToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.helplabel = New System.Windows.Forms.Label()
         Me.author = New System.Windows.Forms.Label()
+        Me.JobLicense = New System.Windows.Forms.Label()
+        Me.JobAdmin = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.AdminResult = New System.Windows.Forms.Label()
+        Me.AdminCheck3 = New System.Windows.Forms.RadioButton()
+        Me.AdminCheck2 = New System.Windows.Forms.RadioButton()
+        Me.AdminCheck1 = New System.Windows.Forms.RadioButton()
         CType(Me.pictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.ContextMenuStrip1.SuspendLayout()
         CType(Me.JobMaximum, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ColorSwatchPanel.SuspendLayout()
-        Me.ContextMenuStrip1.SuspendLayout()
+        Me.Panel1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'pictureBox1
@@ -94,6 +104,22 @@ Partial Class Form1
         Me.pictureBox1.ContextMenuStrip = Me.ContextMenuStrip1
         Me.pictureBox1.Name = "pictureBox1"
         Me.pictureBox1.TabStop = False
+        '
+        'ContextMenuStrip1
+        '
+        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EnglishToolStripMenuItem, Me.РусскийToolStripMenuItem})
+        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
+        resources.ApplyResources(Me.ContextMenuStrip1, "ContextMenuStrip1")
+        '
+        'EnglishToolStripMenuItem
+        '
+        Me.EnglishToolStripMenuItem.Name = "EnglishToolStripMenuItem"
+        resources.ApplyResources(Me.EnglishToolStripMenuItem, "EnglishToolStripMenuItem")
+        '
+        'РусскийToolStripMenuItem
+        '
+        Me.РусскийToolStripMenuItem.Name = "РусскийToolStripMenuItem"
+        resources.ApplyResources(Me.РусскийToolStripMenuItem, "РусскийToolStripMenuItem")
         '
         'BrowseModels
         '
@@ -407,22 +433,6 @@ Partial Class Form1
         resources.ApplyResources(Me.ResultColorPanel, "ResultColorPanel")
         Me.ResultColorPanel.Name = "ResultColorPanel"
         '
-        'ContextMenuStrip1
-        '
-        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EnglishToolStripMenuItem, Me.РусскийToolStripMenuItem})
-        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        resources.ApplyResources(Me.ContextMenuStrip1, "ContextMenuStrip1")
-        '
-        'EnglishToolStripMenuItem
-        '
-        Me.EnglishToolStripMenuItem.Name = "EnglishToolStripMenuItem"
-        resources.ApplyResources(Me.EnglishToolStripMenuItem, "EnglishToolStripMenuItem")
-        '
-        'РусскийToolStripMenuItem
-        '
-        Me.РусскийToolStripMenuItem.Name = "РусскийToolStripMenuItem"
-        resources.ApplyResources(Me.РусскийToolStripMenuItem, "РусскийToolStripMenuItem")
-        '
         'helplabel
         '
         resources.ApplyResources(Me.helplabel, "helplabel")
@@ -435,17 +445,82 @@ Partial Class Form1
         Me.author.ForeColor = System.Drawing.SystemColors.ScrollBar
         Me.author.Name = "author"
         '
+        'JobLicense
+        '
+        resources.ApplyResources(Me.JobLicense, "JobLicense")
+        Me.JobLicense.ForeColor = System.Drawing.Color.White
+        Me.JobLicense.Name = "JobLicense"
+        '
+        'JobAdmin
+        '
+        resources.ApplyResources(Me.JobAdmin, "JobAdmin")
+        Me.JobAdmin.ForeColor = System.Drawing.Color.White
+        Me.JobAdmin.Name = "JobAdmin"
+        '
+        'Panel1
+        '
+        Me.Panel1.Controls.Add(Me.VoteNo)
+        Me.Panel1.Controls.Add(Me.VoteYes)
+        Me.Panel1.Controls.Add(Me.VoteResult)
+        resources.ApplyResources(Me.Panel1, "Panel1")
+        Me.Panel1.Name = "Panel1"
+        '
+        'Panel2
+        '
+        Me.Panel2.Controls.Add(Me.AdminResult)
+        Me.Panel2.Controls.Add(Me.AdminCheck3)
+        Me.Panel2.Controls.Add(Me.AdminCheck2)
+        Me.Panel2.Controls.Add(Me.AdminCheck1)
+        resources.ApplyResources(Me.Panel2, "Panel2")
+        Me.Panel2.Name = "Panel2"
+        '
+        'AdminResult
+        '
+        resources.ApplyResources(Me.AdminResult, "AdminResult")
+        Me.AdminResult.Name = "AdminResult"
+        '
+        'AdminCheck3
+        '
+        resources.ApplyResources(Me.AdminCheck3, "AdminCheck3")
+        Me.AdminCheck3.BackColor = System.Drawing.SystemColors.Highlight
+        Me.AdminCheck3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.AdminCheck3.Name = "AdminCheck3"
+        Me.AdminCheck3.TabStop = True
+        Me.AdminCheck3.UseVisualStyleBackColor = False
+        '
+        'AdminCheck2
+        '
+        resources.ApplyResources(Me.AdminCheck2, "AdminCheck2")
+        Me.AdminCheck2.BackColor = System.Drawing.SystemColors.Highlight
+        Me.AdminCheck2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.AdminCheck2.Name = "AdminCheck2"
+        Me.AdminCheck2.TabStop = True
+        Me.AdminCheck2.UseVisualStyleBackColor = False
+        '
+        'AdminCheck1
+        '
+        resources.ApplyResources(Me.AdminCheck1, "AdminCheck1")
+        Me.AdminCheck1.BackColor = System.Drawing.SystemColors.Highlight
+        Me.AdminCheck1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.AdminCheck1.Name = "AdminCheck1"
+        Me.AdminCheck1.TabStop = True
+        Me.AdminCheck1.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Highlight
+        Me.Controls.Add(Me.Panel2)
+        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.author)
         Me.Controls.Add(Me.helplabel)
         Me.Controls.Add(Me.ColorSwatchPanel)
         Me.Controls.Add(Me.CopyAll)
         Me.Controls.Add(Me.DescriptionBox)
+        Me.Controls.Add(Me.JobAdmin)
         Me.Controls.Add(Me.DescriptionLabel)
+        Me.Controls.Add(Me.JobLicense)
         Me.Controls.Add(Me.CommandBox)
         Me.Controls.Add(Me.jobcommand)
         Me.Controls.Add(Me.jobmax)
@@ -456,8 +531,6 @@ Partial Class Form1
         Me.Controls.Add(Me.pictureBox1)
         Me.Controls.Add(Me.ColorPick)
         Me.Controls.Add(Me.BrowseModels)
-        Me.Controls.Add(Me.VoteNo)
-        Me.Controls.Add(Me.VoteYes)
         Me.Controls.Add(Me.JobCategoryBox)
         Me.Controls.Add(Me.JobModelBox)
         Me.Controls.Add(Me.JobWeaponsBox)
@@ -472,7 +545,6 @@ Partial Class Form1
         Me.Controls.Add(Me.jobweapons)
         Me.Controls.Add(Me.jobname)
         Me.Controls.Add(Me.teamname)
-        Me.Controls.Add(Me.VoteResult)
         Me.Controls.Add(Me.JobMaxPanel)
         Me.Controls.Add(Me.CommandPanel)
         Me.Controls.Add(Me.DescriptionPanel)
@@ -486,9 +558,13 @@ Partial Class Form1
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Form1"
         CType(Me.pictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ContextMenuStrip1.ResumeLayout(False)
         CType(Me.JobMaximum, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ColorSwatchPanel.ResumeLayout(False)
-        Me.ContextMenuStrip1.ResumeLayout(False)
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -550,4 +626,12 @@ Partial Class Form1
     Friend WithEvents РусскийToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents helplabel As Label
     Friend WithEvents author As Label
+    Private WithEvents JobLicense As Label
+    Private WithEvents JobAdmin As Label
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents AdminCheck1 As RadioButton
+    Friend WithEvents AdminCheck3 As RadioButton
+    Friend WithEvents AdminCheck2 As RadioButton
+    Friend WithEvents AdminResult As Label
 End Class

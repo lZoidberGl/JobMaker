@@ -18,7 +18,7 @@ Public Class Form1
 
         ''↑---------SETS LOCALIZATION----------↑''
         Me.Width = 640
-        Me.Height = 500
+        Me.Height = 570
         LoadDefaults()
     End Sub
 
@@ -244,6 +244,18 @@ Public Class Form1
     Private Sub РусскийToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles РусскийToolStripMenuItem.Click
         Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("ru-RU")
         LoadDefaults()
+    End Sub
+
+    Private Sub AdminCheck1_CheckedChanged(sender As Object, e As EventArgs) Handles AdminCheck1.CheckedChanged, AdminCheck2.CheckedChanged, AdminCheck3.CheckedChanged
+        If AdminCheck1.Checked Then
+            AdminResult.Text = "2"
+        End If
+        If AdminCheck2.Checked Then
+            AdminResult.Text = "1"
+        End If
+        If AdminCheck3.Checked Then
+            AdminResult.Text = "0"
+        End If
     End Sub
 
     Private Sub ColorSwatchPanel_MouseMove(sender As Object, e As MouseEventArgs) Handles ColorSwatchPanel.MouseMove
