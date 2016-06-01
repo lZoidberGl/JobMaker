@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="AdminRU" xml:space="preserve">
+    <value>Админ</value>
+  </data>
   <data name="CopyButton" xml:space="preserve">
     <value>Copy text</value>
   </data>
@@ -128,6 +134,12 @@
   </data>
   <data name="GenerateRU" xml:space="preserve">
     <value>Сгенерировать профессию</value>
+  </data>
+  <data name="JobAdmin" xml:space="preserve">
+    <value>Needed permissions</value>
+  </data>
+  <data name="JobAdminRU" xml:space="preserve">
+    <value>Нужные права</value>
   </data>
   <data name="JobCategory" xml:space="preserve">
     <value>Job category (DarkRP v2.6.x)</value>
@@ -152,6 +164,12 @@
   </data>
   <data name="JobDescriptionRU" xml:space="preserve">
     <value>Описание профессии</value>
+  </data>
+  <data name="JobLicense" xml:space="preserve">
+    <value>Gun license</value>
+  </data>
+  <data name="JobLicenseRU" xml:space="preserve">
+    <value>Лицензия на оружие</value>
   </data>
   <data name="JobMax" xml:space="preserve">
     <value>Maximum players</value>
@@ -189,6 +207,18 @@
   <data name="JobWeaponsRU" xml:space="preserve">
     <value>Оружия</value>
   </data>
+  <data name="LicenseNo" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="LicenseNoRU" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="LicenseYes" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="LicenseYesRU" xml:space="preserve">
+    <value>Есть</value>
+  </data>
   <data name="ProgramName" xml:space="preserve">
     <value>Job Generator</value>
   </data>
@@ -201,11 +231,23 @@
   <data name="SourceSiteRU" xml:space="preserve">
     <value>Картинки взяты отсюда</value>
   </data>
+  <data name="SuperAdmin" xml:space="preserve">
+    <value>Superadmin</value>
+  </data>
+  <data name="SuperAdminRU" xml:space="preserve">
+    <value>Суперадмин</value>
+  </data>
   <data name="TeamName" xml:space="preserve">
     <value>TEAM-name for your job</value>
   </data>
   <data name="TeamNameRU" xml:space="preserve">
     <value>TEAM-Название для вашей профессии</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="UserRU" xml:space="preserve">
+    <value>Игрок</value>
   </data>
   <data name="VoteNo" xml:space="preserve">
     <value>False</value>

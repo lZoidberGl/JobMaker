@@ -24,8 +24,8 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        Me.pictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.LanguageSelector = New System.Windows.Forms.PictureBox()
+        Me.LanguageMenu = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.EnglishToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.РусскийToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BrowseModels = New System.Windows.Forms.Button()
@@ -45,7 +45,7 @@ Partial Class Form1
         Me.jobname = New System.Windows.Forms.Label()
         Me.teamname = New System.Windows.Forms.Label()
         Me.VoteResult = New System.Windows.Forms.Label()
-        Me.Timer = New System.Windows.Forms.Timer(Me.components)
+        Me.Anim = New System.Windows.Forms.Timer(Me.components)
         Me.GenCode = New System.Windows.Forms.Button()
         Me.CodeBox = New System.Windows.Forms.RichTextBox()
         Me.ColorLabel = New System.Windows.Forms.Label()
@@ -79,37 +79,41 @@ Partial Class Form1
         Me.GreenBar = New System.Windows.Forms.HScrollBar()
         Me.RedBar = New System.Windows.Forms.HScrollBar()
         Me.ResultColorPanel = New System.Windows.Forms.Panel()
-        Me.helplabel = New System.Windows.Forms.Label()
         Me.author = New System.Windows.Forms.Label()
         Me.JobLicense = New System.Windows.Forms.Label()
         Me.JobAdmin = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.AdminResult = New System.Windows.Forms.Label()
-        Me.AdminCheck3 = New System.Windows.Forms.RadioButton()
-        Me.AdminCheck2 = New System.Windows.Forms.RadioButton()
-        Me.AdminCheck1 = New System.Windows.Forms.RadioButton()
-        CType(Me.pictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.ContextMenuStrip1.SuspendLayout()
+        Me.User = New System.Windows.Forms.RadioButton()
+        Me.Admin = New System.Windows.Forms.RadioButton()
+        Me.SuperAdmin = New System.Windows.Forms.RadioButton()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.LicenseNo = New System.Windows.Forms.RadioButton()
+        Me.LicenseYes = New System.Windows.Forms.RadioButton()
+        Me.LicenseResult = New System.Windows.Forms.Label()
+        CType(Me.LanguageSelector, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.LanguageMenu.SuspendLayout()
         CType(Me.JobMaximum, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ColorSwatchPanel.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
+        Me.Panel3.SuspendLayout()
         Me.SuspendLayout()
         '
-        'pictureBox1
+        'LanguageSelector
         '
-        Me.pictureBox1.BackgroundImage = Global.JobMaker.My.Resources.Models.icon175x175
-        resources.ApplyResources(Me.pictureBox1, "pictureBox1")
-        Me.pictureBox1.ContextMenuStrip = Me.ContextMenuStrip1
-        Me.pictureBox1.Name = "pictureBox1"
-        Me.pictureBox1.TabStop = False
+        Me.LanguageSelector.BackgroundImage = Global.JobMaker.My.Resources.Models.icon175x175
+        resources.ApplyResources(Me.LanguageSelector, "LanguageSelector")
+        Me.LanguageSelector.ContextMenuStrip = Me.LanguageMenu
+        Me.LanguageSelector.Name = "LanguageSelector"
+        Me.LanguageSelector.TabStop = False
         '
-        'ContextMenuStrip1
+        'LanguageMenu
         '
-        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EnglishToolStripMenuItem, Me.РусскийToolStripMenuItem})
-        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        resources.ApplyResources(Me.ContextMenuStrip1, "ContextMenuStrip1")
+        Me.LanguageMenu.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EnglishToolStripMenuItem, Me.РусскийToolStripMenuItem})
+        Me.LanguageMenu.Name = "ContextMenuStrip1"
+        resources.ApplyResources(Me.LanguageMenu, "LanguageMenu")
         '
         'EnglishToolStripMenuItem
         '
@@ -222,9 +226,9 @@ Partial Class Form1
         Me.VoteResult.ForeColor = System.Drawing.Color.White
         Me.VoteResult.Name = "VoteResult"
         '
-        'Timer
+        'Anim
         '
-        Me.Timer.Interval = 25
+        Me.Anim.Interval = 25
         '
         'GenCode
         '
@@ -433,12 +437,6 @@ Partial Class Form1
         resources.ApplyResources(Me.ResultColorPanel, "ResultColorPanel")
         Me.ResultColorPanel.Name = "ResultColorPanel"
         '
-        'helplabel
-        '
-        resources.ApplyResources(Me.helplabel, "helplabel")
-        Me.helplabel.ForeColor = System.Drawing.SystemColors.Window
-        Me.helplabel.Name = "helplabel"
-        '
         'author
         '
         resources.ApplyResources(Me.author, "author")
@@ -468,9 +466,9 @@ Partial Class Form1
         'Panel2
         '
         Me.Panel2.Controls.Add(Me.AdminResult)
-        Me.Panel2.Controls.Add(Me.AdminCheck3)
-        Me.Panel2.Controls.Add(Me.AdminCheck2)
-        Me.Panel2.Controls.Add(Me.AdminCheck1)
+        Me.Panel2.Controls.Add(Me.User)
+        Me.Panel2.Controls.Add(Me.Admin)
+        Me.Panel2.Controls.Add(Me.SuperAdmin)
         resources.ApplyResources(Me.Panel2, "Panel2")
         Me.Panel2.Name = "Panel2"
         '
@@ -479,42 +477,68 @@ Partial Class Form1
         resources.ApplyResources(Me.AdminResult, "AdminResult")
         Me.AdminResult.Name = "AdminResult"
         '
-        'AdminCheck3
+        'User
         '
-        resources.ApplyResources(Me.AdminCheck3, "AdminCheck3")
-        Me.AdminCheck3.BackColor = System.Drawing.SystemColors.Highlight
-        Me.AdminCheck3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.AdminCheck3.Name = "AdminCheck3"
-        Me.AdminCheck3.TabStop = True
-        Me.AdminCheck3.UseVisualStyleBackColor = False
+        resources.ApplyResources(Me.User, "User")
+        Me.User.BackColor = System.Drawing.SystemColors.Highlight
+        Me.User.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.User.Name = "User"
+        Me.User.TabStop = True
+        Me.User.UseVisualStyleBackColor = False
         '
-        'AdminCheck2
+        'Admin
         '
-        resources.ApplyResources(Me.AdminCheck2, "AdminCheck2")
-        Me.AdminCheck2.BackColor = System.Drawing.SystemColors.Highlight
-        Me.AdminCheck2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.AdminCheck2.Name = "AdminCheck2"
-        Me.AdminCheck2.TabStop = True
-        Me.AdminCheck2.UseVisualStyleBackColor = False
+        resources.ApplyResources(Me.Admin, "Admin")
+        Me.Admin.BackColor = System.Drawing.SystemColors.Highlight
+        Me.Admin.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Admin.Name = "Admin"
+        Me.Admin.TabStop = True
+        Me.Admin.UseVisualStyleBackColor = False
         '
-        'AdminCheck1
+        'SuperAdmin
         '
-        resources.ApplyResources(Me.AdminCheck1, "AdminCheck1")
-        Me.AdminCheck1.BackColor = System.Drawing.SystemColors.Highlight
-        Me.AdminCheck1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.AdminCheck1.Name = "AdminCheck1"
-        Me.AdminCheck1.TabStop = True
-        Me.AdminCheck1.UseVisualStyleBackColor = False
+        resources.ApplyResources(Me.SuperAdmin, "SuperAdmin")
+        Me.SuperAdmin.BackColor = System.Drawing.SystemColors.Highlight
+        Me.SuperAdmin.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.SuperAdmin.Name = "SuperAdmin"
+        Me.SuperAdmin.TabStop = True
+        Me.SuperAdmin.UseVisualStyleBackColor = False
+        '
+        'Panel3
+        '
+        Me.Panel3.Controls.Add(Me.LicenseNo)
+        Me.Panel3.Controls.Add(Me.LicenseYes)
+        Me.Panel3.Controls.Add(Me.LicenseResult)
+        resources.ApplyResources(Me.Panel3, "Panel3")
+        Me.Panel3.Name = "Panel3"
+        '
+        'LicenseNo
+        '
+        resources.ApplyResources(Me.LicenseNo, "LicenseNo")
+        Me.LicenseNo.Checked = True
+        Me.LicenseNo.ForeColor = System.Drawing.Color.White
+        Me.LicenseNo.Name = "LicenseNo"
+        Me.LicenseNo.TabStop = True
+        Me.LicenseNo.UseVisualStyleBackColor = True
+        '
+        'LicenseYes
+        '
+        resources.ApplyResources(Me.LicenseYes, "LicenseYes")
+        Me.LicenseYes.ForeColor = System.Drawing.Color.White
+        Me.LicenseYes.Name = "LicenseYes"
+        Me.LicenseYes.UseVisualStyleBackColor = True
+        '
+        'LicenseResult
+        '
+        resources.ApplyResources(Me.LicenseResult, "LicenseResult")
+        Me.LicenseResult.ForeColor = System.Drawing.Color.White
+        Me.LicenseResult.Name = "LicenseResult"
         '
         'Form1
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Highlight
-        Me.Controls.Add(Me.Panel2)
-        Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.author)
-        Me.Controls.Add(Me.helplabel)
         Me.Controls.Add(Me.ColorSwatchPanel)
         Me.Controls.Add(Me.CopyAll)
         Me.Controls.Add(Me.DescriptionBox)
@@ -528,7 +552,7 @@ Partial Class Form1
         Me.Controls.Add(Me.ColorLabel)
         Me.Controls.Add(Me.CodeBox)
         Me.Controls.Add(Me.GenCode)
-        Me.Controls.Add(Me.pictureBox1)
+        Me.Controls.Add(Me.LanguageSelector)
         Me.Controls.Add(Me.ColorPick)
         Me.Controls.Add(Me.BrowseModels)
         Me.Controls.Add(Me.JobCategoryBox)
@@ -555,21 +579,27 @@ Partial Class Form1
         Me.Controls.Add(Me.JobColorPanel)
         Me.Controls.Add(Me.JobNamePanel)
         Me.Controls.Add(Me.TeamPanel)
+        Me.Controls.Add(Me.Panel3)
+        Me.Controls.Add(Me.Panel2)
+        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.author)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Form1"
-        CType(Me.pictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.ContextMenuStrip1.ResumeLayout(False)
+        CType(Me.LanguageSelector, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.LanguageMenu.ResumeLayout(False)
         CType(Me.JobMaximum, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ColorSwatchPanel.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        Me.Panel3.ResumeLayout(False)
+        Me.Panel3.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Private WithEvents pictureBox1 As PictureBox
+    Private WithEvents LanguageSelector As PictureBox
     Private WithEvents BrowseModels As Button
     Private WithEvents VoteNo As RadioButton
     Private WithEvents VoteYes As RadioButton
@@ -587,7 +617,7 @@ Partial Class Form1
     Private WithEvents jobname As Label
     Private WithEvents teamname As Label
     Private WithEvents VoteResult As Label
-    Private WithEvents Timer As Timer
+    Private WithEvents Anim As Timer
     Friend WithEvents GenCode As Button
     Friend WithEvents CodeBox As RichTextBox
     Private WithEvents ColorLabel As Label
@@ -621,17 +651,20 @@ Partial Class Form1
     Friend WithEvents BlueBar As HScrollBar
     Friend WithEvents acceptcolor As Button
     Friend WithEvents NoAccept As Button
-    Friend WithEvents ContextMenuStrip1 As ContextMenuStrip
+    Friend WithEvents LanguageMenu As ContextMenuStrip
     Friend WithEvents EnglishToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents РусскийToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents helplabel As Label
     Friend WithEvents author As Label
     Private WithEvents JobLicense As Label
     Private WithEvents JobAdmin As Label
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents AdminCheck1 As RadioButton
-    Friend WithEvents AdminCheck3 As RadioButton
-    Friend WithEvents AdminCheck2 As RadioButton
+    Friend WithEvents SuperAdmin As RadioButton
+    Friend WithEvents User As RadioButton
+    Friend WithEvents Admin As RadioButton
     Friend WithEvents AdminResult As Label
+    Friend WithEvents Panel3 As Panel
+    Private WithEvents LicenseNo As RadioButton
+    Private WithEvents LicenseYes As RadioButton
+    Private WithEvents LicenseResult As Label
 End Class

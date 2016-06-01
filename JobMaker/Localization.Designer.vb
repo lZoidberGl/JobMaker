@@ -65,6 +65,24 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Admin.
+        '''</summary>
+        Friend Shared ReadOnly Property Admin() As String
+            Get
+                Return ResourceManager.GetString("Admin", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Админ.
+        '''</summary>
+        Friend Shared ReadOnly Property AdminRU() As String
+            Get
+                Return ResourceManager.GetString("AdminRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Copy text.
         '''</summary>
         Friend Shared ReadOnly Property CopyButton() As String
@@ -97,6 +115,24 @@ Namespace My.Resources
         Friend Shared ReadOnly Property GenerateRU() As String
             Get
                 Return ResourceManager.GetString("GenerateRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Needed permissions.
+        '''</summary>
+        Friend Shared ReadOnly Property JobAdmin() As String
+            Get
+                Return ResourceManager.GetString("JobAdmin", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Нужные права.
+        '''</summary>
+        Friend Shared ReadOnly Property JobAdminRU() As String
+            Get
+                Return ResourceManager.GetString("JobAdminRU", resourceCulture)
             End Get
         End Property
         
@@ -169,6 +205,24 @@ Namespace My.Resources
         Friend Shared ReadOnly Property JobDescriptionRU() As String
             Get
                 Return ResourceManager.GetString("JobDescriptionRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Gun license.
+        '''</summary>
+        Friend Shared ReadOnly Property JobLicense() As String
+            Get
+                Return ResourceManager.GetString("JobLicense", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Лицензия на оружие.
+        '''</summary>
+        Friend Shared ReadOnly Property JobLicenseRU() As String
+            Get
+                Return ResourceManager.GetString("JobLicenseRU", resourceCulture)
             End Get
         End Property
         
@@ -281,6 +335,42 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to False.
+        '''</summary>
+        Friend Shared ReadOnly Property LicenseNo() As String
+            Get
+                Return ResourceManager.GetString("LicenseNo", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Нет.
+        '''</summary>
+        Friend Shared ReadOnly Property LicenseNoRU() As String
+            Get
+                Return ResourceManager.GetString("LicenseNoRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to True.
+        '''</summary>
+        Friend Shared ReadOnly Property LicenseYes() As String
+            Get
+                Return ResourceManager.GetString("LicenseYes", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Есть.
+        '''</summary>
+        Friend Shared ReadOnly Property LicenseYesRU() As String
+            Get
+                Return ResourceManager.GetString("LicenseYesRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Job Generator.
         '''</summary>
         Friend Shared ReadOnly Property ProgramName() As String
@@ -317,6 +407,24 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Superadmin.
+        '''</summary>
+        Friend Shared ReadOnly Property SuperAdmin() As String
+            Get
+                Return ResourceManager.GetString("SuperAdmin", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Суперадмин.
+        '''</summary>
+        Friend Shared ReadOnly Property SuperAdminRU() As String
+            Get
+                Return ResourceManager.GetString("SuperAdminRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to TEAM-name for your job.
         '''</summary>
         Friend Shared ReadOnly Property TeamName() As String
@@ -331,6 +439,24 @@ Namespace My.Resources
         Friend Shared ReadOnly Property TeamNameRU() As String
             Get
                 Return ResourceManager.GetString("TeamNameRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to User.
+        '''</summary>
+        Friend Shared ReadOnly Property User() As String
+            Get
+                Return ResourceManager.GetString("User", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Игрок.
+        '''</summary>
+        Friend Shared ReadOnly Property UserRU() As String
+            Get
+                Return ResourceManager.GetString("UserRU", resourceCulture)
             End Get
         End Property
         

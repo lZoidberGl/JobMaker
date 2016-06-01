@@ -42,6 +42,13 @@ Public Class Form1
             jobcommand.Text = Localization.JobCommand
             DescriptionLabel.Text = Localization.JobDescription
             CopyAll.Text = Localization.CopyButton
+            JobLicense.Text = Localization.JobLicense
+            User.Text = Localization.User
+            Admin.Text = Localization.Admin
+            SuperAdmin.Text = Localization.SuperAdmin
+            LicenseNo.Text = Localization.LicenseNo
+            LicenseYes.Text = Localization.LicenseYes
+            JobAdmin.Text = Localization.JobAdmin
         End If
 
         If (Thread.CurrentThread.CurrentUICulture Is CultureInfo.GetCultureInfo("ru-RU")) Then
@@ -62,6 +69,13 @@ Public Class Form1
             jobcommand.Text = Localization.JobCommandRU
             DescriptionLabel.Text = Localization.JobDescriptionRU
             CopyAll.Text = Localization.CopyButtonRU
+            JobLicense.Text = Localization.JobLicenseRU
+            User.Text = Localization.UserRU
+            Admin.Text = Localization.AdminRU
+            SuperAdmin.Text = Localization.SuperAdminRU
+            LicenseNo.Text = Localization.LicenseNoRU
+            LicenseYes.Text = Localization.LicenseYesRU
+            JobAdmin.Text = Localization.JobAdminRU
         End If
         ''↑---------USES LOCALIZATION----------↑''
     End Sub
@@ -92,25 +106,25 @@ Public Class Form1
         CodeBox.Text = CodeBox.Text + Environment.NewLine + "	description = [[" + DescriptionBox.Text + "]],"
         CodeBox.Text = CodeBox.Text + Environment.NewLine + "	weapons = {" + JobWeaponsBox.Text + "},"
         CodeBox.Text = CodeBox.Text + Environment.NewLine + "	command = " + Chr(34) + CommandBox.Text + Chr(34) + ","
-        CodeBox.Text = CodeBox.Text + Environment.NewLine + "	max = " + JobMaximum.Text + ","
+        CodeBox.Text = CodeBox.Text + Environment.NewLine + "	max = " + JobMaximum.Value.ToString() + ","
         CodeBox.Text = CodeBox.Text + Environment.NewLine + "	salary = " + JobSalaryBox.Text + ","
-        ' CodeBox.Text = CodeBox.Text + Environment.NewLine + "	admin = " + AdminCheck.Text + ","
+        CodeBox.Text = CodeBox.Text + Environment.NewLine + "	admin = " + AdminResult.Text + ","
         CodeBox.Text = CodeBox.Text + Environment.NewLine + "	vote = " + VoteResult.Text + ","
-        ' CodeBox.Text = CodeBox.Text + Environment.NewLine + "	hasLicense =" + LicenseResult.Text + ","
+        CodeBox.Text = CodeBox.Text + Environment.NewLine + "	hasLicense =" + LicenseResult.Text + ","
         CodeBox.Text = CodeBox.Text + Environment.NewLine + "	category = " + Chr(34) + JobCategoryBox.Text + Chr(34)
         CodeBox.Text = CodeBox.Text + Environment.NewLine + "})"
     End Sub
 
     Private Sub ExtendMe()
-        Timer.Start()
+        Anim.Start()
         CodeBox.Visible = True
     End Sub
 
-    Private Sub Timer_Tick(sender As Object, e As EventArgs) Handles Timer.Tick
+    Private Sub Timer_Tick(sender As Object, e As EventArgs) Handles Anim.Tick
         If Me.Width < 1150 Then
             Me.Width = Width + 15
         Else
-            Timer.Stop()
+            Anim.Stop()
         End If
     End Sub
 
@@ -246,16 +260,31 @@ Public Class Form1
         LoadDefaults()
     End Sub
 
-    Private Sub AdminCheck1_CheckedChanged(sender As Object, e As EventArgs) Handles AdminCheck1.CheckedChanged, AdminCheck2.CheckedChanged, AdminCheck3.CheckedChanged
-        If AdminCheck1.Checked Then
+    Private Sub AdminCheck1_CheckedChanged(sender As Object, e As EventArgs) Handles SuperAdmin.CheckedChanged, Admin.CheckedChanged, User.CheckedChanged
+        If SuperAdmin.Checked Then
             AdminResult.Text = "2"
         End If
-        If AdminCheck2.Checked Then
+        If Admin.Checked Then
             AdminResult.Text = "1"
         End If
-        If AdminCheck3.Checked Then
+        If User.Checked Then
             AdminResult.Text = "0"
         End If
+        GenerateCode()
+    End Sub
+
+    Private Sub LanguageSelector_Click(sender As Object, e As EventArgs) Handles LanguageSelector.Click
+        LanguageMenu.Show()
+        LanguageMenu.Location = MousePosition
+    End Sub
+
+    Private Sub LicenseYes_CheckedChanged(sender As Object, e As EventArgs) Handles LicenseYes.CheckedChanged, LicenseNo.CheckedChanged
+        If LicenseYes.Checked Then
+            LicenseResult.Text = "true"
+        Else
+            LicenseResult.Text = "false"
+        End If
+        GenerateCode()
     End Sub
 
     Private Sub ColorSwatchPanel_MouseMove(sender As Object, e As MouseEventArgs) Handles ColorSwatchPanel.MouseMove
