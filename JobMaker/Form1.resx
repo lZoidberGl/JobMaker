@@ -157,7 +157,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LanguageSelector.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>13</value>
   </data>
   <data name="EnglishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>119, 22</value>
@@ -196,7 +196,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BrowseModels.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>15</value>
   </data>
   <data name="VoteNo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -280,7 +280,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;JobCategoryBox.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>16</value>
   </data>
   <data name="JobModelBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Print, 9pt, style=Bold</value>
@@ -304,7 +304,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;JobModelBox.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>17</value>
   </data>
   <data name="JobWeaponsBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Print, 9pt, style=Bold</value>
@@ -328,7 +328,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;JobWeaponsBox.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>18</value>
   </data>
   <data name="JobSalaryBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Print, 9pt, style=Bold</value>
@@ -352,7 +352,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;JobSalaryBox.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>19</value>
   </data>
   <data name="JobNameBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Print, 9pt, style=Bold</value>
@@ -376,7 +376,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;JobNameBox.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>20</value>
   </data>
   <data name="TeamBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Print, 9pt, style=Bold</value>
@@ -400,7 +400,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TeamBox.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>22</value>
   </data>
   <data name="jobvote.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -433,7 +433,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;jobvote.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>23</value>
   </data>
   <data name="jobcategory.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -466,7 +466,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;jobcategory.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>24</value>
   </data>
   <data name="jobmodels.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -499,7 +499,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;jobmodels.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>25</value>
   </data>
   <data name="jobsalary.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -532,7 +532,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;jobsalary.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>26</value>
   </data>
   <data name="jobweapons.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -565,7 +565,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;jobweapons.ZOrder" xml:space="preserve">
-    <value>28</value>
+    <value>27</value>
   </data>
   <data name="jobname.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -598,7 +598,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;jobname.ZOrder" xml:space="preserve">
-    <value>29</value>
+    <value>28</value>
   </data>
   <data name="teamname.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -631,7 +631,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;teamname.ZOrder" xml:space="preserve">
-    <value>30</value>
+    <value>29</value>
   </data>
   <data name="VoteResult.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -694,7 +694,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;GenCode.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>12</value>
   </data>
   <data name="CodeBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>632, 0</value>
@@ -721,7 +721,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CodeBox.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>11</value>
   </data>
   <data name="ColorLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -754,7 +754,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ColorLabel.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>10</value>
   </data>
   <data name="ColorBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Print, 9pt, style=Bold</value>
@@ -784,7 +784,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ColorBox.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>21</value>
   </data>
   <data name="JobMaximum.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Print, 9pt, style=Bold</value>
@@ -808,7 +808,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;JobMaximum.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>9</value>
   </data>
   <data name="jobmax.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -841,7 +841,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;jobmax.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>8</value>
   </data>
   <data name="CommandBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Print, 9pt, style=Bold</value>
@@ -865,7 +865,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CommandBox.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>6</value>
   </data>
   <data name="jobcommand.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -898,7 +898,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;jobcommand.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>7</value>
   </data>
   <data name="ColorPick.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -925,7 +925,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ColorPick.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>14</value>
   </data>
   <data name="DescriptionLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -982,7 +982,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DescriptionBox.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="TeamPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>455, 23</value>
@@ -1003,7 +1003,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TeamPanel.ZOrder" xml:space="preserve">
-    <value>40</value>
+    <value>39</value>
   </data>
   <data name="JobNamePanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>455, 57</value>
@@ -1024,7 +1024,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;JobNamePanel.ZOrder" xml:space="preserve">
-    <value>39</value>
+    <value>38</value>
   </data>
   <data name="JobColorPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>455, 92</value>
@@ -1045,7 +1045,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;JobColorPanel.ZOrder" xml:space="preserve">
-    <value>38</value>
+    <value>37</value>
   </data>
   <data name="SalaryPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>455, 128</value>
@@ -1066,7 +1066,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;SalaryPanel.ZOrder" xml:space="preserve">
-    <value>37</value>
+    <value>36</value>
   </data>
   <data name="WeaponsPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>455, 195</value>
@@ -1087,7 +1087,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;WeaponsPanel.ZOrder" xml:space="preserve">
-    <value>36</value>
+    <value>35</value>
   </data>
   <data name="ModelsPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>455, 230</value>
@@ -1108,7 +1108,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ModelsPanel.ZOrder" xml:space="preserve">
-    <value>35</value>
+    <value>34</value>
   </data>
   <data name="CategoryPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>455, 265</value>
@@ -1129,7 +1129,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CategoryPanel.ZOrder" xml:space="preserve">
-    <value>34</value>
+    <value>33</value>
   </data>
   <data name="DescriptionPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>455, 370</value>
@@ -1150,7 +1150,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DescriptionPanel.ZOrder" xml:space="preserve">
-    <value>33</value>
+    <value>32</value>
   </data>
   <data name="CommandPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>455, 335</value>
@@ -1171,7 +1171,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CommandPanel.ZOrder" xml:space="preserve">
-    <value>32</value>
+    <value>31</value>
   </data>
   <data name="JobMaxPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>455, 300</value>
@@ -1192,7 +1192,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;JobMaxPanel.ZOrder" xml:space="preserve">
-    <value>31</value>
+    <value>30</value>
   </data>
   <data name="CopyAll.Location" type="System.Drawing.Point, System.Drawing">
     <value>632, 509</value>
@@ -1216,151 +1216,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CopyAll.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;NoAccept.Name" xml:space="preserve">
-    <value>NoAccept</value>
-  </data>
-  <data name="&gt;&gt;NoAccept.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NoAccept.Parent" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;NoAccept.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;acceptcolor.Name" xml:space="preserve">
-    <value>acceptcolor</value>
-  </data>
-  <data name="&gt;&gt;acceptcolor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;acceptcolor.Parent" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;acceptcolor.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;BlueLabel.Name" xml:space="preserve">
-    <value>BlueLabel</value>
-  </data>
-  <data name="&gt;&gt;BlueLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BlueLabel.Parent" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;BlueLabel.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;GreenLabel.Name" xml:space="preserve">
-    <value>GreenLabel</value>
-  </data>
-  <data name="&gt;&gt;GreenLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GreenLabel.Parent" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;GreenLabel.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="&gt;&gt;RedLabel.Name" xml:space="preserve">
-    <value>RedLabel</value>
-  </data>
-  <data name="&gt;&gt;RedLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RedLabel.Parent" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;RedLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;ResultValue.Name" xml:space="preserve">
-    <value>ResultValue</value>
-  </data>
-  <data name="&gt;&gt;ResultValue.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ResultValue.Parent" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;ResultValue.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;BlueBar.Name" xml:space="preserve">
-    <value>BlueBar</value>
-  </data>
-  <data name="&gt;&gt;BlueBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.HScrollBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BlueBar.Parent" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;BlueBar.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;GreenBar.Name" xml:space="preserve">
-    <value>GreenBar</value>
-  </data>
-  <data name="&gt;&gt;GreenBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.HScrollBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GreenBar.Parent" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;GreenBar.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;RedBar.Name" xml:space="preserve">
-    <value>RedBar</value>
-  </data>
-  <data name="&gt;&gt;RedBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.HScrollBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RedBar.Parent" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;RedBar.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;ResultColorPanel.Name" xml:space="preserve">
-    <value>ResultColorPanel</value>
-  </data>
-  <data name="&gt;&gt;ResultColorPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ResultColorPanel.Parent" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;ResultColorPanel.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="ColorSwatchPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 31</value>
-  </data>
-  <data name="ColorSwatchPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 300</value>
-  </data>
-  <data name="ColorSwatchPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
-  </data>
-  <data name="ColorSwatchPanel.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;ColorSwatchPanel.Name" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;ColorSwatchPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ColorSwatchPanel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ColorSwatchPanel.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="NoAccept.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2122,6 +1978,30 @@
   <data name="&gt;&gt;ResultColorPanel.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="ColorSwatchPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 26</value>
+  </data>
+  <data name="ColorSwatchPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 300</value>
+  </data>
+  <data name="ColorSwatchPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="ColorSwatchPanel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ColorSwatchPanel.Name" xml:space="preserve">
+    <value>ColorSwatchPanel</value>
+  </data>
+  <data name="&gt;&gt;ColorSwatchPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColorSwatchPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ColorSwatchPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="author.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -2150,7 +2030,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;author.ZOrder" xml:space="preserve">
-    <value>44</value>
+    <value>43</value>
   </data>
   <data name="JobLicense.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2162,7 +2042,7 @@
     <value>NoControl</value>
   </data>
   <data name="JobLicense.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 407</value>
+    <value>12, 5</value>
   </data>
   <data name="JobLicense.Size" type="System.Drawing.Size, System.Drawing">
     <value>94, 24</value>
@@ -2180,10 +2060,10 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;JobLicense.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>Panel3</value>
   </data>
   <data name="&gt;&gt;JobLicense.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>3</value>
   </data>
   <data name="JobAdmin.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2195,7 +2075,7 @@
     <value>NoControl</value>
   </data>
   <data name="JobAdmin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 442</value>
+    <value>12, 6</value>
   </data>
   <data name="JobAdmin.Size" type="System.Drawing.Size, System.Drawing">
     <value>92, 24</value>
@@ -2213,7 +2093,7 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;JobAdmin.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>Panel2</value>
   </data>
   <data name="&gt;&gt;JobAdmin.ZOrder" xml:space="preserve">
     <value>4</value>
@@ -2237,7 +2117,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
-    <value>43</value>
+    <value>42</value>
   </data>
   <data name="&gt;&gt;AdminResult.Name" xml:space="preserve">
     <value>AdminResult</value>
@@ -2288,10 +2168,10 @@
     <value>3</value>
   </data>
   <data name="Panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>296, 433</value>
+    <value>0, 433</value>
   </data>
   <data name="Panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 34</value>
+    <value>635, 34</value>
   </data>
   <data name="Panel2.TabIndex" type="System.Int32, mscorlib">
     <value>41</value>
@@ -2306,13 +2186,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Panel2.ZOrder" xml:space="preserve">
-    <value>42</value>
+    <value>41</value>
   </data>
   <data name="AdminResult.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="AdminResult.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 11</value>
+    <value>331, 12</value>
   </data>
   <data name="AdminResult.Size" type="System.Drawing.Size, System.Drawing">
     <value>13, 13</value>
@@ -2351,7 +2231,7 @@
     <value>NoControl</value>
   </data>
   <data name="User.Location" type="System.Drawing.Point, System.Drawing">
-    <value>262, 7</value>
+    <value>560, 8</value>
   </data>
   <data name="User.Size" type="System.Drawing.Size, System.Drawing">
     <value>58, 19</value>
@@ -2387,7 +2267,7 @@
     <value>NoControl</value>
   </data>
   <data name="Admin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>189, 7</value>
+    <value>487, 8</value>
   </data>
   <data name="Admin.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 19</value>
@@ -2420,7 +2300,7 @@
     <value>Microsoft Sans Serif, 9pt</value>
   </data>
   <data name="SuperAdmin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>83, 7</value>
+    <value>383, 8</value>
   </data>
   <data name="SuperAdmin.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 19</value>
@@ -2483,10 +2363,10 @@
     <value>2</value>
   </data>
   <data name="Panel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>377, 402</value>
+    <value>0, 402</value>
   </data>
   <data name="Panel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>239, 34</value>
+    <value>635, 34</value>
   </data>
   <data name="Panel3.TabIndex" type="System.Int32, mscorlib">
     <value>42</value>
@@ -2501,7 +2381,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Panel3.ZOrder" xml:space="preserve">
-    <value>41</value>
+    <value>40</value>
   </data>
   <data name="LicenseNo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2510,7 +2390,7 @@
     <value>NoControl</value>
   </data>
   <data name="LicenseNo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>189, 8</value>
+    <value>568, 9</value>
   </data>
   <data name="LicenseNo.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 17</value>
@@ -2543,7 +2423,7 @@
     <value>NoControl</value>
   </data>
   <data name="LicenseYes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>130, 8</value>
+    <value>510, 9</value>
   </data>
   <data name="LicenseYes.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 17</value>
@@ -2576,7 +2456,7 @@
     <value>NoControl</value>
   </data>
   <data name="LicenseResult.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 11</value>
+    <value>454, 11</value>
   </data>
   <data name="LicenseResult.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 13</value>
@@ -2605,6 +2485,30 @@
   <data name="&gt;&gt;LicenseResult.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="ShowAdvSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 469</value>
+  </data>
+  <data name="ShowAdvSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="ShowAdvSet.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="ShowAdvSet.Text" xml:space="preserve">
+    <value>#AdvSettings</value>
+  </data>
+  <data name="&gt;&gt;ShowAdvSet.Name" xml:space="preserve">
+    <value>ShowAdvSet</value>
+  </data>
+  <data name="&gt;&gt;ShowAdvSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowAdvSet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ShowAdvSet.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -2616,26 +2520,104 @@
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAA
-        AAB3sJkAd7CZAHewmQD/mgD//5oA//+aAP//mgD//5oA//+aAP//mgD//5oA//+aAP//mgD/d7CZAHew
-        mQB3sJkAd7CZAHewmQD/mgD//5oA//+aAP//mgD//5oA//+aAP//mgD//5oA//+aAP//mgD//5oA//+a
-        AP93sJkAd7CZAHewmQD/mgD//5oA//+aAP//mgD//5oA//+aAP//mgD//5oA//+aAP//mgD//5oA//+a
-        AP//mgD//5oA/3ewmQD/mgD//5oA//+aAP//mgD//5oA//+aAP//mgD//5oA//+aAP//mgD//5oA//+a
-        AP//mgD//5oA//+aAP//mgD//5oA//+aAP///////////////////////5oA////////mgD//5oA//+a
-        AP//mgD//5oA////////mgD//5oA//+aAP//mgD///////+aAP//mgD///////+aAP///////5oA//+a
-        AP//mgD//5oA//+aAP///////5oA//+aAP//mgD//5oA//+aAP//mgD//5oA////////mgD///////+a
-        AP//mgD//5oA//+aAP//mgD///////+aAP//mgD//5oA//+aAP//mgD//5oA//+aAP///////5oA////
-        ////mgD//5oA//+aAP//mgD//5oA////////mgD//5oA//+aAP//mgD//5oA//+aAP//mgD///////+a
-        AP///////5oA//+aAP///////5oA//+aAP///////5oA//+aAP//mgD//5oA//+aAP//mgD//5oA////
-        ////mgD///////+aAP///////5oA////////mgD///////+aAP//mgD//5oA//+aAP//mgD//5oA//+a
-        AP///////5oA/////////////5oA//+aAP//mgD/////////////mgD//5oA//+aAP//mgD//5oA//+a
-        AP//mgD///////+aAP///////5oA//+aAP//mgD//5oA//+aAP///////5oA//+aAP//mgD//5oA//+a
-        AP//mgD//5oA//+aAP//mgD//5oA//+aAP//mgD//5oA//+aAP//mgD//5oA//+aAP//mgD/d7CZAP+a
-        AP//mgD//5oA//+aAP//mgD//5oA//+aAP//mgD//5oA//+aAP//mgD//5oA//+aAP//mgD/d7CZAHew
-        mQB3sJkA/5oA//+aAP//mgD//5oA//+aAP//mgD//5oA//+aAP//mgD//5oA//+aAP//mgD/d7CZAHew
-        mQB3sJkAd7CZAHewmQD/mgD//5oA//+aAP//mgD//5oA//+aAP//mgD//5oA//+aAP//mgD/d7CZAHew
-        mQB3sJkA4AcAAMADAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAB
-        AADAAwAA4AcAAA==
+        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
 </value>
   </data>
   <data name="&gt;&gt;EnglishToolStripMenuItem.Name" xml:space="preserve">

@@ -287,6 +287,10 @@ Public Class Form1
         GenerateCode()
     End Sub
 
+    Private Sub Button1_Click_2(sender As Object, e As EventArgs) Handles ShowAdvSet.Click
+        AdvancedSettings.Show()
+    End Sub
+
     Private Sub ColorSwatchPanel_MouseMove(sender As Object, e As MouseEventArgs) Handles ColorSwatchPanel.MouseMove
         If e.Button = MouseButtons.Left Then
             newpoint = MousePosition

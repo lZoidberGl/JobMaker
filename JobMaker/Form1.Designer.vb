@@ -92,6 +92,7 @@ Partial Class Form1
         Me.LicenseNo = New System.Windows.Forms.RadioButton()
         Me.LicenseYes = New System.Windows.Forms.RadioButton()
         Me.LicenseResult = New System.Windows.Forms.Label()
+        Me.ShowAdvSet = New System.Windows.Forms.Button()
         CType(Me.LanguageSelector, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.LanguageMenu.SuspendLayout()
         CType(Me.JobMaximum, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -469,6 +470,7 @@ Partial Class Form1
         Me.Panel2.Controls.Add(Me.User)
         Me.Panel2.Controls.Add(Me.Admin)
         Me.Panel2.Controls.Add(Me.SuperAdmin)
+        Me.Panel2.Controls.Add(Me.JobAdmin)
         resources.ApplyResources(Me.Panel2, "Panel2")
         Me.Panel2.Name = "Panel2"
         '
@@ -481,6 +483,7 @@ Partial Class Form1
         '
         resources.ApplyResources(Me.User, "User")
         Me.User.BackColor = System.Drawing.SystemColors.Highlight
+        Me.User.Checked = True
         Me.User.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.User.Name = "User"
         Me.User.TabStop = True
@@ -492,7 +495,6 @@ Partial Class Form1
         Me.Admin.BackColor = System.Drawing.SystemColors.Highlight
         Me.Admin.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Admin.Name = "Admin"
-        Me.Admin.TabStop = True
         Me.Admin.UseVisualStyleBackColor = False
         '
         'SuperAdmin
@@ -501,7 +503,6 @@ Partial Class Form1
         Me.SuperAdmin.BackColor = System.Drawing.SystemColors.Highlight
         Me.SuperAdmin.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.SuperAdmin.Name = "SuperAdmin"
-        Me.SuperAdmin.TabStop = True
         Me.SuperAdmin.UseVisualStyleBackColor = False
         '
         'Panel3
@@ -509,6 +510,7 @@ Partial Class Form1
         Me.Panel3.Controls.Add(Me.LicenseNo)
         Me.Panel3.Controls.Add(Me.LicenseYes)
         Me.Panel3.Controls.Add(Me.LicenseResult)
+        Me.Panel3.Controls.Add(Me.JobLicense)
         resources.ApplyResources(Me.Panel3, "Panel3")
         Me.Panel3.Name = "Panel3"
         '
@@ -534,17 +536,22 @@ Partial Class Form1
         Me.LicenseResult.ForeColor = System.Drawing.Color.White
         Me.LicenseResult.Name = "LicenseResult"
         '
+        'ShowAdvSet
+        '
+        resources.ApplyResources(Me.ShowAdvSet, "ShowAdvSet")
+        Me.ShowAdvSet.Name = "ShowAdvSet"
+        Me.ShowAdvSet.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Highlight
+        Me.Controls.Add(Me.ShowAdvSet)
         Me.Controls.Add(Me.ColorSwatchPanel)
         Me.Controls.Add(Me.CopyAll)
         Me.Controls.Add(Me.DescriptionBox)
-        Me.Controls.Add(Me.JobAdmin)
         Me.Controls.Add(Me.DescriptionLabel)
-        Me.Controls.Add(Me.JobLicense)
         Me.Controls.Add(Me.CommandBox)
         Me.Controls.Add(Me.jobcommand)
         Me.Controls.Add(Me.jobmax)
@@ -667,4 +674,5 @@ Partial Class Form1
     Private WithEvents LicenseNo As RadioButton
     Private WithEvents LicenseYes As RadioButton
     Private WithEvents LicenseResult As Label
+    Friend WithEvents ShowAdvSet As Button
 End Class
