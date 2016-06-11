@@ -123,6 +123,42 @@
   <data name="AdminRU" xml:space="preserve">
     <value>Админ</value>
   </data>
+  <data name="AdvSettings" xml:space="preserve">
+    <value>Optional settings</value>
+  </data>
+  <data name="AdvSettingsRU" xml:space="preserve">
+    <value>Доп. настройки</value>
+  </data>
+  <data name="ArrestStick" xml:space="preserve">
+    <value>Arrest baton</value>
+  </data>
+  <data name="ArrestStickRU" xml:space="preserve">
+    <value>Палка для ареста</value>
+  </data>
+  <data name="BatteringRam" xml:space="preserve">
+    <value>Battering ram</value>
+  </data>
+  <data name="BatteringRamRU" xml:space="preserve">
+    <value>Таран</value>
+  </data>
+  <data name="Chief" xml:space="preserve">
+    <value>Is it chief?</value>
+  </data>
+  <data name="ChiefRU" xml:space="preserve">
+    <value>Это шеф полиции?</value>
+  </data>
+  <data name="ComingSoon" xml:space="preserve">
+    <value>Coming soon...</value>
+  </data>
+  <data name="ComingSoonRU" xml:space="preserve">
+    <value>Скоро...</value>
+  </data>
+  <data name="Cook" xml:space="preserve">
+    <value>Is it cook?</value>
+  </data>
+  <data name="CookRU" xml:space="preserve">
+    <value>Это повар?</value>
+  </data>
   <data name="CopyButton" xml:space="preserve">
     <value>Copy text</value>
   </data>
@@ -134,6 +170,12 @@
   </data>
   <data name="GenerateRU" xml:space="preserve">
     <value>Сгенерировать профессию</value>
+  </data>
+  <data name="Hobo" xml:space="preserve">
+    <value>Is it hobo?</value>
+  </data>
+  <data name="HoboRU" xml:space="preserve">
+    <value>Это бездомный?</value>
   </data>
   <data name="JobAdmin" xml:space="preserve">
     <value>Needed permissions</value>
@@ -219,6 +261,36 @@
   <data name="LicenseYesRU" xml:space="preserve">
     <value>Есть</value>
   </data>
+  <data name="Lockpick" xml:space="preserve">
+    <value>Lockpick</value>
+  </data>
+  <data name="LockpickRU" xml:space="preserve">
+    <value>Отмычка</value>
+  </data>
+  <data name="Mayor" xml:space="preserve">
+    <value>Is it mayor?</value>
+  </data>
+  <data name="MayorRU" xml:space="preserve">
+    <value>Это мэр?</value>
+  </data>
+  <data name="Medic" xml:space="preserve">
+    <value>Is it medic?</value>
+  </data>
+  <data name="MedicRU" xml:space="preserve">
+    <value>Это медик?</value>
+  </data>
+  <data name="Medkit" xml:space="preserve">
+    <value>Medic kit</value>
+  </data>
+  <data name="MedkitRU" xml:space="preserve">
+    <value>Набор медика</value>
+  </data>
+  <data name="NeedChangeFrom" xml:space="preserve">
+    <value>Needed job before changing</value>
+  </data>
+  <data name="NeedChangeFromRU" xml:space="preserve">
+    <value>Нужная профессия до смены</value>
+  </data>
   <data name="ProgramName" xml:space="preserve">
     <value>Job Generator</value>
   </data>
@@ -231,6 +303,12 @@
   <data name="SourceSiteRU" xml:space="preserve">
     <value>Картинки взяты отсюда</value>
   </data>
+  <data name="Stunstick" xml:space="preserve">
+    <value>Stun Baton</value>
+  </data>
+  <data name="StunstickRU" xml:space="preserve">
+    <value>Электродубинка</value>
+  </data>
   <data name="SuperAdmin" xml:space="preserve">
     <value>Superadmin</value>
   </data>
@@ -242,6 +320,18 @@
   </data>
   <data name="TeamNameRU" xml:space="preserve">
     <value>TEAM-Название для вашей профессии</value>
+  </data>
+  <data name="UnArrestStick" xml:space="preserve">
+    <value>Unarrest baton</value>
+  </data>
+  <data name="UnArrestStickRU" xml:space="preserve">
+    <value>Палка снятия ареста</value>
+  </data>
+  <data name="UpdateMenu" xml:space="preserve">
+    <value>Updating</value>
+  </data>
+  <data name="UpdateMenuRU" xml:space="preserve">
+    <value>Обновление</value>
   </data>
   <data name="User" xml:space="preserve">
     <value>User</value>
@@ -260,5 +350,11 @@
   </data>
   <data name="VoteYesRU" xml:space="preserve">
     <value>Да</value>
+  </data>
+  <data name="WeaponChecker" xml:space="preserve">
+    <value>Weapon checker</value>
+  </data>
+  <data name="WeaponCheckerRU" xml:space="preserve">
+    <value>Обыск</value>
   </data>
 </root>

@@ -117,93 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="CommandBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe Print, 9pt, style=Bold</value>
-  </data>
-  <data name="CommandBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 2</value>
-  </data>
-  <data name="CommandBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 29</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CommandBox.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
-  </data>
-  <data name="&gt;&gt;CommandBox.Name" xml:space="preserve">
-    <value>CommandBox</value>
-  </data>
-  <data name="&gt;&gt;CommandBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CommandBox.Parent" xml:space="preserve">
-    <value>CommandPanel</value>
-  </data>
-  <data name="&gt;&gt;CommandBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="jobcommand.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="jobcommand.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe Print, 10pt, style=Bold</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="jobcommand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="jobcommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 4</value>
-  </data>
-  <data name="jobcommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 24</value>
-  </data>
-  <data name="jobcommand.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
-  </data>
-  <data name="jobcommand.Text" xml:space="preserve">
-    <value>#NeedToChangeFrom</value>
-  </data>
-  <data name="&gt;&gt;jobcommand.Name" xml:space="preserve">
-    <value>jobcommand</value>
-  </data>
-  <data name="&gt;&gt;jobcommand.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;jobcommand.Parent" xml:space="preserve">
-    <value>Panel1</value>
-  </data>
-  <data name="&gt;&gt;jobcommand.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="CommandPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>299, 1</value>
-  </data>
-  <data name="CommandPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 33</value>
-  </data>
-  <data name="CommandPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>39</value>
-  </data>
-  <data name="&gt;&gt;CommandPanel.Name" xml:space="preserve">
-    <value>CommandPanel</value>
-  </data>
-  <data name="&gt;&gt;CommandPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CommandPanel.Parent" xml:space="preserve">
-    <value>Panel1</value>
-  </data>
-  <data name="&gt;&gt;CommandPanel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="AdminResult.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="AdminResult.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="AdminResult.Location" type="System.Drawing.Point, System.Drawing">
     <value>224, 12</value>
   </data>
@@ -339,25 +261,133 @@
   <data name="&gt;&gt;JobAdmin.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+  <data name="NeedChangeFrom.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>462, 35</value>
+  <data name="NeedChangeFrom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 10pt, style=Bold</value>
   </data>
-  <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>40</value>
+  <data name="NeedChangeFrom.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
-    <value>Panel1</value>
+  <data name="NeedChangeFrom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 5</value>
   </data>
-  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+  <data name="NeedChangeFrom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 24</value>
+  </data>
+  <data name="NeedChangeFrom.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="NeedChangeFrom.Text" xml:space="preserve">
+    <value>#NeedToChangeFrom</value>
+  </data>
+  <data name="&gt;&gt;NeedChangeFrom.Name" xml:space="preserve">
+    <value>NeedChangeFrom</value>
+  </data>
+  <data name="&gt;&gt;NeedChangeFrom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NeedChangeFrom.Parent" xml:space="preserve">
+    <value>NeedCangeFromPanel</value>
+  </data>
+  <data name="&gt;&gt;NeedChangeFrom.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NeedChangeFromText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 9pt, style=Bold</value>
+  </data>
+  <data name="NeedChangeFromText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="NeedChangeFromText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 29</value>
+  </data>
+  <data name="NeedChangeFromText.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="NeedChangeFromText.Text" xml:space="preserve">
+    <value>TEAM_</value>
+  </data>
+  <data name="&gt;&gt;NeedChangeFromText.Name" xml:space="preserve">
+    <value>NeedChangeFromText</value>
+  </data>
+  <data name="&gt;&gt;NeedChangeFromText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NeedChangeFromText.Parent" xml:space="preserve">
+    <value>ChangeFromPanel</value>
+  </data>
+  <data name="&gt;&gt;NeedChangeFromText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ChangeFromPanel.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ChangeFromPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 1</value>
+  </data>
+  <data name="ChangeFromPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 33</value>
+  </data>
+  <data name="ChangeFromPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;ChangeFromPanel.Name" xml:space="preserve">
+    <value>ChangeFromPanel</value>
+  </data>
+  <data name="&gt;&gt;ChangeFromPanel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel1</value>
+  <data name="&gt;&gt;ChangeFromPanel.Parent" xml:space="preserve">
+    <value>NeedCangeFromPanel</value>
   </data>
-  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;ChangeFromPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="changecheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="changecheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 10</value>
+  </data>
+  <data name="changecheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="changecheck.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;changecheck.Name" xml:space="preserve">
+    <value>changecheck</value>
+  </data>
+  <data name="&gt;&gt;changecheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;changecheck.Parent" xml:space="preserve">
+    <value>NeedCangeFromPanel</value>
+  </data>
+  <data name="&gt;&gt;changecheck.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="NeedCangeFromPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="NeedCangeFromPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>462, 35</value>
+  </data>
+  <data name="NeedCangeFromPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;NeedCangeFromPanel.Name" xml:space="preserve">
+    <value>NeedCangeFromPanel</value>
+  </data>
+  <data name="&gt;&gt;NeedCangeFromPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NeedCangeFromPanel.Parent" xml:space="preserve">
+    <value>Panele</value>
+  </data>
+  <data name="&gt;&gt;NeedCangeFromPanel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="Panel2.Location" type="System.Drawing.Point, System.Drawing">
@@ -369,6 +399,9 @@
   <data name="Panel2.TabIndex" type="System.Int32, mscorlib">
     <value>40</value>
   </data>
+  <data name="Panel2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;Panel2.Name" xml:space="preserve">
     <value>Panel2</value>
   </data>
@@ -376,33 +409,465 @@
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Panel2.Parent" xml:space="preserve">
-    <value>FlowLayoutPanel1</value>
+    <value>Panele</value>
   </data>
   <data name="&gt;&gt;Panel2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="FlowLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="HoboCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="HoboCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 12</value>
+  </data>
+  <data name="HoboCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="HoboCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;HoboCheck.Name" xml:space="preserve">
+    <value>HoboCheck</value>
+  </data>
+  <data name="&gt;&gt;HoboCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HoboCheck.Parent" xml:space="preserve">
+    <value>HoboPanel</value>
+  </data>
+  <data name="&gt;&gt;HoboCheck.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Hobo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Hobo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 10pt, style=Bold</value>
+  </data>
+  <data name="Hobo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Hobo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="Hobo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 24</value>
+  </data>
+  <data name="Hobo.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="Hobo.Text" xml:space="preserve">
+    <value>#Hobo</value>
+  </data>
+  <data name="&gt;&gt;Hobo.Name" xml:space="preserve">
+    <value>Hobo</value>
+  </data>
+  <data name="&gt;&gt;Hobo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Hobo.Parent" xml:space="preserve">
+    <value>HoboPanel</value>
+  </data>
+  <data name="&gt;&gt;Hobo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="HoboPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 85</value>
+  </data>
+  <data name="HoboPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>462, 35</value>
+  </data>
+  <data name="HoboPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;HoboPanel.Name" xml:space="preserve">
+    <value>HoboPanel</value>
+  </data>
+  <data name="&gt;&gt;HoboPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HoboPanel.Parent" xml:space="preserve">
+    <value>Panele</value>
+  </data>
+  <data name="&gt;&gt;HoboPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="MedicCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MedicCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MedicCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 12</value>
+  </data>
+  <data name="MedicCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="MedicCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;MedicCheck.Name" xml:space="preserve">
+    <value>MedicCheck</value>
+  </data>
+  <data name="&gt;&gt;MedicCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MedicCheck.Parent" xml:space="preserve">
+    <value>MedicPanel</value>
+  </data>
+  <data name="&gt;&gt;MedicCheck.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Medic.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Medic.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 10pt, style=Bold</value>
+  </data>
+  <data name="Medic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Medic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="Medic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 24</value>
+  </data>
+  <data name="Medic.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="Medic.Text" xml:space="preserve">
+    <value>#Medic</value>
+  </data>
+  <data name="&gt;&gt;Medic.Name" xml:space="preserve">
+    <value>Medic</value>
+  </data>
+  <data name="&gt;&gt;Medic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Medic.Parent" xml:space="preserve">
+    <value>MedicPanel</value>
+  </data>
+  <data name="&gt;&gt;Medic.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MedicPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 126</value>
+  </data>
+  <data name="MedicPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>462, 35</value>
+  </data>
+  <data name="MedicPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;MedicPanel.Name" xml:space="preserve">
+    <value>MedicPanel</value>
+  </data>
+  <data name="&gt;&gt;MedicPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MedicPanel.Parent" xml:space="preserve">
+    <value>Panele</value>
+  </data>
+  <data name="&gt;&gt;MedicPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="MayorCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MayorCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MayorCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 12</value>
+  </data>
+  <data name="MayorCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="MayorCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;MayorCheck.Name" xml:space="preserve">
+    <value>MayorCheck</value>
+  </data>
+  <data name="&gt;&gt;MayorCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MayorCheck.Parent" xml:space="preserve">
+    <value>MayorPanel</value>
+  </data>
+  <data name="&gt;&gt;MayorCheck.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Mayor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Mayor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 10pt, style=Bold</value>
+  </data>
+  <data name="Mayor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Mayor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="Mayor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 24</value>
+  </data>
+  <data name="Mayor.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="Mayor.Text" xml:space="preserve">
+    <value>#Mayor</value>
+  </data>
+  <data name="&gt;&gt;Mayor.Name" xml:space="preserve">
+    <value>Mayor</value>
+  </data>
+  <data name="&gt;&gt;Mayor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Mayor.Parent" xml:space="preserve">
+    <value>MayorPanel</value>
+  </data>
+  <data name="&gt;&gt;Mayor.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MayorPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 167</value>
+  </data>
+  <data name="MayorPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>462, 35</value>
+  </data>
+  <data name="MayorPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;MayorPanel.Name" xml:space="preserve">
+    <value>MayorPanel</value>
+  </data>
+  <data name="&gt;&gt;MayorPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MayorPanel.Parent" xml:space="preserve">
+    <value>Panele</value>
+  </data>
+  <data name="&gt;&gt;MayorPanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ChiefCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ChiefCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ChiefCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 12</value>
+  </data>
+  <data name="ChiefCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="ChiefCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;ChiefCheck.Name" xml:space="preserve">
+    <value>ChiefCheck</value>
+  </data>
+  <data name="&gt;&gt;ChiefCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChiefCheck.Parent" xml:space="preserve">
+    <value>ChiefPanel</value>
+  </data>
+  <data name="&gt;&gt;ChiefCheck.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Chief.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Chief.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 10pt, style=Bold</value>
+  </data>
+  <data name="Chief.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Chief.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="Chief.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 24</value>
+  </data>
+  <data name="Chief.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="Chief.Text" xml:space="preserve">
+    <value>#Chief</value>
+  </data>
+  <data name="&gt;&gt;Chief.Name" xml:space="preserve">
+    <value>Chief</value>
+  </data>
+  <data name="&gt;&gt;Chief.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Chief.Parent" xml:space="preserve">
+    <value>ChiefPanel</value>
+  </data>
+  <data name="&gt;&gt;Chief.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ChiefPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 208</value>
+  </data>
+  <data name="ChiefPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>462, 35</value>
+  </data>
+  <data name="ChiefPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;ChiefPanel.Name" xml:space="preserve">
+    <value>ChiefPanel</value>
+  </data>
+  <data name="&gt;&gt;ChiefPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChiefPanel.Parent" xml:space="preserve">
+    <value>Panele</value>
+  </data>
+  <data name="&gt;&gt;ChiefPanel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CookCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CookCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CookCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 12</value>
+  </data>
+  <data name="CookCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="CookCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;CookCheck.Name" xml:space="preserve">
+    <value>CookCheck</value>
+  </data>
+  <data name="&gt;&gt;CookCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CookCheck.Parent" xml:space="preserve">
+    <value>CookPanel</value>
+  </data>
+  <data name="&gt;&gt;CookCheck.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Cook.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Cook.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 10pt, style=Bold</value>
+  </data>
+  <data name="Cook.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Cook.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="Cook.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 24</value>
+  </data>
+  <data name="Cook.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="Cook.Text" xml:space="preserve">
+    <value>#Cook</value>
+  </data>
+  <data name="&gt;&gt;Cook.Name" xml:space="preserve">
+    <value>Cook</value>
+  </data>
+  <data name="&gt;&gt;Cook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cook.Parent" xml:space="preserve">
+    <value>CookPanel</value>
+  </data>
+  <data name="&gt;&gt;Cook.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CookPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 249</value>
+  </data>
+  <data name="CookPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>462, 35</value>
+  </data>
+  <data name="CookPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;CookPanel.Name" xml:space="preserve">
+    <value>CookPanel</value>
+  </data>
+  <data name="&gt;&gt;CookPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CookPanel.Parent" xml:space="preserve">
+    <value>Panele</value>
+  </data>
+  <data name="&gt;&gt;CookPanel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Panele.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="FlowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Panele.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="FlowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>463, 167</value>
+  <data name="Panele.Size" type="System.Drawing.Size, System.Drawing">
+    <value>463, 287</value>
   </data>
-  <data name="FlowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+  <data name="Panele.TabIndex" type="System.Int32, mscorlib">
     <value>41</value>
   </data>
-  <data name="&gt;&gt;FlowLayoutPanel1.Name" xml:space="preserve">
-    <value>FlowLayoutPanel1</value>
+  <data name="&gt;&gt;Panele.Name" xml:space="preserve">
+    <value>Panele</value>
   </data>
-  <data name="&gt;&gt;FlowLayoutPanel1.Type" xml:space="preserve">
+  <data name="&gt;&gt;Panele.Type" xml:space="preserve">
     <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;FlowLayoutPanel1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Panele.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;FlowLayoutPanel1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Panele.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ComingSoon.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 15.25pt, style=Bold</value>
+  </data>
+  <data name="ComingSoon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 290</value>
+  </data>
+  <data name="ComingSoon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 44</value>
+  </data>
+  <data name="ComingSoon.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="ComingSoon.Text" xml:space="preserve">
+    <value>#ComingSoon</value>
+  </data>
+  <data name="ComingSoon.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;ComingSoon.Name" xml:space="preserve">
+    <value>ComingSoon</value>
+  </data>
+  <data name="&gt;&gt;ComingSoon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ComingSoon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ComingSoon.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -412,7 +877,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>463, 464</value>
+    <value>463, 339</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

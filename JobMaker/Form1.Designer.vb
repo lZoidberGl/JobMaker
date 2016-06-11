@@ -93,6 +93,11 @@ Partial Class Form1
         Me.LicenseYes = New System.Windows.Forms.RadioButton()
         Me.LicenseResult = New System.Windows.Forms.Label()
         Me.ShowAdvSet = New System.Windows.Forms.Button()
+        Me.VersLabel = New System.Windows.Forms.Label()
+        Me.WeaponShow = New System.Windows.Forms.Button()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.UpdateToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ChangesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         CType(Me.LanguageSelector, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.LanguageMenu.SuspendLayout()
         CType(Me.JobMaximum, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -100,6 +105,7 @@ Partial Class Form1
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
+        Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'LanguageSelector
@@ -542,12 +548,43 @@ Partial Class Form1
         Me.ShowAdvSet.Name = "ShowAdvSet"
         Me.ShowAdvSet.UseVisualStyleBackColor = True
         '
+        'VersLabel
+        '
+        resources.ApplyResources(Me.VersLabel, "VersLabel")
+        Me.VersLabel.ForeColor = System.Drawing.SystemColors.ScrollBar
+        Me.VersLabel.Name = "VersLabel"
+        '
+        'WeponShow
+        '
+        resources.ApplyResources(Me.WeaponShow, "WeponShow")
+        Me.WeaponShow.Name = "WeponShow"
+        Me.WeaponShow.UseVisualStyleBackColor = True
+        '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UpdateToolStripMenuItem, Me.ChangesToolStripMenuItem})
+        resources.ApplyResources(Me.MenuStrip1, "MenuStrip1")
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
+        '
+        'UpdateToolStripMenuItem
+        '
+        Me.UpdateToolStripMenuItem.Name = "UpdateToolStripMenuItem"
+        resources.ApplyResources(Me.UpdateToolStripMenuItem, "UpdateToolStripMenuItem")
+        '
+        'ChangesToolStripMenuItem
+        '
+        Me.ChangesToolStripMenuItem.Name = "ChangesToolStripMenuItem"
+        resources.ApplyResources(Me.ChangesToolStripMenuItem, "ChangesToolStripMenuItem")
+        '
         'Form1
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Highlight
-        Me.Controls.Add(Me.ShowAdvSet)
+        Me.Controls.Add(Me.MenuStrip1)
+        Me.Controls.Add(Me.WeaponShow)
+        Me.Controls.Add(Me.VersLabel)
         Me.Controls.Add(Me.ColorSwatchPanel)
         Me.Controls.Add(Me.CopyAll)
         Me.Controls.Add(Me.DescriptionBox)
@@ -590,6 +627,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.author)
+        Me.Controls.Add(Me.ShowAdvSet)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Form1"
         CType(Me.LanguageSelector, System.ComponentModel.ISupportInitialize).EndInit()
@@ -602,6 +640,8 @@ Partial Class Form1
         Me.Panel2.PerformLayout()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -612,7 +652,6 @@ Partial Class Form1
     Private WithEvents VoteYes As RadioButton
     Private WithEvents JobCategoryBox As TextBox
     Public WithEvents JobModelBox As TextBox
-    Private WithEvents JobWeaponsBox As TextBox
     Private WithEvents JobSalaryBox As TextBox
     Private WithEvents JobNameBox As TextBox
     Private WithEvents TeamBox As TextBox
@@ -675,4 +714,10 @@ Partial Class Form1
     Private WithEvents LicenseYes As RadioButton
     Private WithEvents LicenseResult As Label
     Friend WithEvents ShowAdvSet As Button
+    Friend WithEvents VersLabel As Label
+    Private WithEvents WeaponShow As Button
+    Friend WithEvents MenuStrip1 As MenuStrip
+    Friend WithEvents UpdateToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ChangesToolStripMenuItem As ToolStripMenuItem
+    Public WithEvents JobWeaponsBox As TextBox
 End Class

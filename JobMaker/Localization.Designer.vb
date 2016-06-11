@@ -83,6 +83,114 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Optional settings.
+        '''</summary>
+        Friend Shared ReadOnly Property AdvSettings() As String
+            Get
+                Return ResourceManager.GetString("AdvSettings", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Доп. настройки.
+        '''</summary>
+        Friend Shared ReadOnly Property AdvSettingsRU() As String
+            Get
+                Return ResourceManager.GetString("AdvSettingsRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Arrest baton.
+        '''</summary>
+        Friend Shared ReadOnly Property ArrestStick() As String
+            Get
+                Return ResourceManager.GetString("ArrestStick", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Палка для ареста.
+        '''</summary>
+        Friend Shared ReadOnly Property ArrestStickRU() As String
+            Get
+                Return ResourceManager.GetString("ArrestStickRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Battering ram.
+        '''</summary>
+        Friend Shared ReadOnly Property BatteringRam() As String
+            Get
+                Return ResourceManager.GetString("BatteringRam", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Таран.
+        '''</summary>
+        Friend Shared ReadOnly Property BatteringRamRU() As String
+            Get
+                Return ResourceManager.GetString("BatteringRamRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Is it chief?.
+        '''</summary>
+        Friend Shared ReadOnly Property Chief() As String
+            Get
+                Return ResourceManager.GetString("Chief", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Это шеф полиции?.
+        '''</summary>
+        Friend Shared ReadOnly Property ChiefRU() As String
+            Get
+                Return ResourceManager.GetString("ChiefRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Coming soon....
+        '''</summary>
+        Friend Shared ReadOnly Property ComingSoon() As String
+            Get
+                Return ResourceManager.GetString("ComingSoon", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Скоро....
+        '''</summary>
+        Friend Shared ReadOnly Property ComingSoonRU() As String
+            Get
+                Return ResourceManager.GetString("ComingSoonRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Is it cook?.
+        '''</summary>
+        Friend Shared ReadOnly Property Cook() As String
+            Get
+                Return ResourceManager.GetString("Cook", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Это повар?.
+        '''</summary>
+        Friend Shared ReadOnly Property CookRU() As String
+            Get
+                Return ResourceManager.GetString("CookRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Copy text.
         '''</summary>
         Friend Shared ReadOnly Property CopyButton() As String
@@ -115,6 +223,24 @@ Namespace My.Resources
         Friend Shared ReadOnly Property GenerateRU() As String
             Get
                 Return ResourceManager.GetString("GenerateRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Is it hobo?.
+        '''</summary>
+        Friend Shared ReadOnly Property Hobo() As String
+            Get
+                Return ResourceManager.GetString("Hobo", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Это бездомный?.
+        '''</summary>
+        Friend Shared ReadOnly Property HoboRU() As String
+            Get
+                Return ResourceManager.GetString("HoboRU", resourceCulture)
             End Get
         End Property
         
@@ -371,6 +497,96 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Lockpick.
+        '''</summary>
+        Friend Shared ReadOnly Property Lockpick() As String
+            Get
+                Return ResourceManager.GetString("Lockpick", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Отмычка.
+        '''</summary>
+        Friend Shared ReadOnly Property LockpickRU() As String
+            Get
+                Return ResourceManager.GetString("LockpickRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Is it mayor?.
+        '''</summary>
+        Friend Shared ReadOnly Property Mayor() As String
+            Get
+                Return ResourceManager.GetString("Mayor", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Это мэр?.
+        '''</summary>
+        Friend Shared ReadOnly Property MayorRU() As String
+            Get
+                Return ResourceManager.GetString("MayorRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Is it medic?.
+        '''</summary>
+        Friend Shared ReadOnly Property Medic() As String
+            Get
+                Return ResourceManager.GetString("Medic", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Это медик?.
+        '''</summary>
+        Friend Shared ReadOnly Property MedicRU() As String
+            Get
+                Return ResourceManager.GetString("MedicRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Medic kit.
+        '''</summary>
+        Friend Shared ReadOnly Property Medkit() As String
+            Get
+                Return ResourceManager.GetString("Medkit", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Набор медика.
+        '''</summary>
+        Friend Shared ReadOnly Property MedkitRU() As String
+            Get
+                Return ResourceManager.GetString("MedkitRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Needed job before changing.
+        '''</summary>
+        Friend Shared ReadOnly Property NeedChangeFrom() As String
+            Get
+                Return ResourceManager.GetString("NeedChangeFrom", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Нужная профессия до смены.
+        '''</summary>
+        Friend Shared ReadOnly Property NeedChangeFromRU() As String
+            Get
+                Return ResourceManager.GetString("NeedChangeFromRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Job Generator.
         '''</summary>
         Friend Shared ReadOnly Property ProgramName() As String
@@ -407,6 +623,24 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Stun Baton.
+        '''</summary>
+        Friend Shared ReadOnly Property Stunstick() As String
+            Get
+                Return ResourceManager.GetString("Stunstick", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Электродубинка.
+        '''</summary>
+        Friend Shared ReadOnly Property StunstickRU() As String
+            Get
+                Return ResourceManager.GetString("StunstickRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Superadmin.
         '''</summary>
         Friend Shared ReadOnly Property SuperAdmin() As String
@@ -439,6 +673,42 @@ Namespace My.Resources
         Friend Shared ReadOnly Property TeamNameRU() As String
             Get
                 Return ResourceManager.GetString("TeamNameRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Unarrest baton.
+        '''</summary>
+        Friend Shared ReadOnly Property UnArrestStick() As String
+            Get
+                Return ResourceManager.GetString("UnArrestStick", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Палка снятия ареста.
+        '''</summary>
+        Friend Shared ReadOnly Property UnArrestStickRU() As String
+            Get
+                Return ResourceManager.GetString("UnArrestStickRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Updating.
+        '''</summary>
+        Friend Shared ReadOnly Property UpdateMenu() As String
+            Get
+                Return ResourceManager.GetString("UpdateMenu", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Обновление.
+        '''</summary>
+        Friend Shared ReadOnly Property UpdateMenuRU() As String
+            Get
+                Return ResourceManager.GetString("UpdateMenuRU", resourceCulture)
             End Get
         End Property
         
@@ -493,6 +763,24 @@ Namespace My.Resources
         Friend Shared ReadOnly Property VoteYesRU() As String
             Get
                 Return ResourceManager.GetString("VoteYesRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Weapon checker.
+        '''</summary>
+        Friend Shared ReadOnly Property WeaponChecker() As String
+            Get
+                Return ResourceManager.GetString("WeaponChecker", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Обыск.
+        '''</summary>
+        Friend Shared ReadOnly Property WeaponCheckerRU() As String
+            Get
+                Return ResourceManager.GetString("WeaponCheckerRU", resourceCulture)
             End Get
         End Property
     End Class
