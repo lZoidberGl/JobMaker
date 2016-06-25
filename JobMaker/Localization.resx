@@ -123,6 +123,12 @@
   <data name="AdminRU" xml:space="preserve">
     <value>Админ</value>
   </data>
+  <data name="AdminTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AdminTipRU" xml:space="preserve">
+    <value>Какие права нужны для захода на профессию?</value>
+  </data>
   <data name="AdvSettings" xml:space="preserve">
     <value>Optional settings</value>
   </data>
@@ -147,17 +153,35 @@
   <data name="BatteringRamRU" xml:space="preserve">
     <value>Таран</value>
   </data>
+  <data name="CategoryTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CategoryTipRU" xml:space="preserve">
+    <value>В какую категорию входит профессия? (Категория должна быть создана в файле categories.lua) Пример: Преступность</value>
+  </data>
   <data name="Chief" xml:space="preserve">
     <value>Is it chief?</value>
   </data>
   <data name="ChiefRU" xml:space="preserve">
     <value>Это шеф полиции?</value>
   </data>
+  <data name="ColorTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ColorTipRU" xml:space="preserve">
+    <value>Какой цвет у профессии? (В формате RGB) Пример: 255,255,255 - черный</value>
+  </data>
   <data name="ComingSoon" xml:space="preserve">
     <value>Coming soon...</value>
   </data>
   <data name="ComingSoonRU" xml:space="preserve">
     <value>Скоро...</value>
+  </data>
+  <data name="CommandTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CommandTipRU" xml:space="preserve">
+    <value>Команда, с помощью которой можно будет перейти на эту профессию. Пример: bandit</value>
   </data>
   <data name="Cook" xml:space="preserve">
     <value>Is it cook?</value>
@@ -176,6 +200,12 @@
   </data>
   <data name="CustomCheckRU" xml:space="preserve">
     <value>ULX Группа (Например: VIP)</value>
+  </data>
+  <data name="DescriptionTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DescriptionTipRU" xml:space="preserve">
+    <value>Краткое описание профессии. Пример: Вы бандит, вы можете отжимать деньги у граждан, и естественно заниматься другой преступной деятельностью.</value>
   </data>
   <data name="Generate" xml:space="preserve">
     <value>Generate job</value>
@@ -273,6 +303,12 @@
   <data name="LicenseNoRU" xml:space="preserve">
     <value>Нет</value>
   </data>
+  <data name="LicenseTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LicenseTipRU" xml:space="preserve">
+    <value>Есть ли у профессии лицензия на оружие?</value>
+  </data>
   <data name="LicenseYes" xml:space="preserve">
     <value>True</value>
   </data>
@@ -284,6 +320,12 @@
   </data>
   <data name="LockpickRU" xml:space="preserve">
     <value>Отмычка</value>
+  </data>
+  <data name="MaxTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MaxTipRU" xml:space="preserve">
+    <value>Максимальное количество игроков, которое может одновременно занимать профессию.</value>
   </data>
   <data name="Mayor" xml:space="preserve">
     <value>Is it mayor?</value>
@@ -303,6 +345,18 @@
   <data name="MedkitRU" xml:space="preserve">
     <value>Набор медика</value>
   </data>
+  <data name="ModelTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ModelTipRU" xml:space="preserve">
+    <value>Какие игровые модели будет использовать профессия? (В кавычках через запятую) Приммер: "models/player/alyx.mdl","models/player/barney.mdl"</value>
+  </data>
+  <data name="NameTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NameTipRU" xml:space="preserve">
+    <value>Название вашей профессии (можно на русском). Пример: Бандит</value>
+  </data>
   <data name="NeedChangeFrom" xml:space="preserve">
     <value>Needed job before changing</value>
   </data>
@@ -314,6 +368,12 @@
   </data>
   <data name="ProgramNameRU" xml:space="preserve">
     <value>Генератор профессий</value>
+  </data>
+  <data name="SalaryTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SalaryTipRU" xml:space="preserve">
+    <value>Сколько будет зарабатывать игрок на данной профессии? </value>
   </data>
   <data name="SourceSite" xml:space="preserve">
     <value>Image source</value>
@@ -338,6 +398,12 @@
   </data>
   <data name="TeamNameRU" xml:space="preserve">
     <value>TEAM-Название для вашей профессии</value>
+  </data>
+  <data name="TeamTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TeamTipRU" xml:space="preserve">
+    <value>Можно использовать название вашей профессии (на латинице). Пример: TEAM_BANDIT</value>
   </data>
   <data name="UnArrestStick" xml:space="preserve">
     <value>Unarrest baton</value>
@@ -375,6 +441,12 @@
   <data name="VoteNoRU" xml:space="preserve">
     <value>Нет</value>
   </data>
+  <data name="VoteTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VoteTipRU" xml:space="preserve">
+    <value>Требуется ли создавать голосование для перехода на профессию?</value>
+  </data>
   <data name="VoteYes" xml:space="preserve">
     <value>True</value>
   </data>
@@ -386,5 +458,11 @@
   </data>
   <data name="WeaponCheckerRU" xml:space="preserve">
     <value>Обыск</value>
+  </data>
+  <data name="WeaponTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WeaponTipRU" xml:space="preserve">
+    <value>С какими оружиями будет появлятся игрок на данной профессии? (В кавычках через запятую) Пример: "weapon_ak47", "weapon_ar2"</value>
   </data>
 </root>

@@ -83,6 +83,24 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property AdminTip() As String
+            Get
+                Return ResourceManager.GetString("AdminTip", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Какие права нужны для захода на профессию?.
+        '''</summary>
+        Friend Shared ReadOnly Property AdminTipRU() As String
+            Get
+                Return ResourceManager.GetString("AdminTipRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Optional settings.
         '''</summary>
         Friend Shared ReadOnly Property AdvSettings() As String
@@ -155,6 +173,24 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property CategoryTip() As String
+            Get
+                Return ResourceManager.GetString("CategoryTip", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to В какую категорию входит профессия? (Категория должна быть создана в файле categories.lua) Пример: Преступность.
+        '''</summary>
+        Friend Shared ReadOnly Property CategoryTipRU() As String
+            Get
+                Return ResourceManager.GetString("CategoryTipRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Is it chief?.
         '''</summary>
         Friend Shared ReadOnly Property Chief() As String
@@ -173,6 +209,24 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property ColorTip() As String
+            Get
+                Return ResourceManager.GetString("ColorTip", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Какой цвет у профессии? (В формате RGB) Пример: 255,255,255 - черный.
+        '''</summary>
+        Friend Shared ReadOnly Property ColorTipRU() As String
+            Get
+                Return ResourceManager.GetString("ColorTipRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Coming soon....
         '''</summary>
         Friend Shared ReadOnly Property ComingSoon() As String
@@ -187,6 +241,24 @@ Namespace My.Resources
         Friend Shared ReadOnly Property ComingSoonRU() As String
             Get
                 Return ResourceManager.GetString("ComingSoonRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property CommandTip() As String
+            Get
+                Return ResourceManager.GetString("CommandTip", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Команда, с помощью которой можно будет перейти на эту профессию. Пример: bandit.
+        '''</summary>
+        Friend Shared ReadOnly Property CommandTipRU() As String
+            Get
+                Return ResourceManager.GetString("CommandTipRU", resourceCulture)
             End Get
         End Property
         
@@ -241,6 +313,24 @@ Namespace My.Resources
         Friend Shared ReadOnly Property CustomCheckRU() As String
             Get
                 Return ResourceManager.GetString("CustomCheckRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property DescriptionTip() As String
+            Get
+                Return ResourceManager.GetString("DescriptionTip", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Краткое описание профессии. Пример: Вы бандит, вы можете отжимать деньги у граждан, и естественно заниматься другой преступной деятельностью..
+        '''</summary>
+        Friend Shared ReadOnly Property DescriptionTipRU() As String
+            Get
+                Return ResourceManager.GetString("DescriptionTipRU", resourceCulture)
             End Get
         End Property
         
@@ -533,6 +623,24 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property LicenseTip() As String
+            Get
+                Return ResourceManager.GetString("LicenseTip", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Есть ли у профессии лицензия на оружие?.
+        '''</summary>
+        Friend Shared ReadOnly Property LicenseTipRU() As String
+            Get
+                Return ResourceManager.GetString("LicenseTipRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to True.
         '''</summary>
         Friend Shared ReadOnly Property LicenseYes() As String
@@ -565,6 +673,24 @@ Namespace My.Resources
         Friend Shared ReadOnly Property LockpickRU() As String
             Get
                 Return ResourceManager.GetString("LockpickRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property MaxTip() As String
+            Get
+                Return ResourceManager.GetString("MaxTip", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Максимальное количество игроков, которое может одновременно занимать профессию..
+        '''</summary>
+        Friend Shared ReadOnly Property MaxTipRU() As String
+            Get
+                Return ResourceManager.GetString("MaxTipRU", resourceCulture)
             End Get
         End Property
         
@@ -623,6 +749,42 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property ModelTip() As String
+            Get
+                Return ResourceManager.GetString("ModelTip", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Какие игровые модели будет использовать профессия? (В кавычках через запятую) Приммер: &quot;models/player/alyx.mdl&quot;,&quot;models/player/barney.mdl&quot;.
+        '''</summary>
+        Friend Shared ReadOnly Property ModelTipRU() As String
+            Get
+                Return ResourceManager.GetString("ModelTipRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property NameTip() As String
+            Get
+                Return ResourceManager.GetString("NameTip", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Название вашей профессии (можно на русском). Пример: Бандит.
+        '''</summary>
+        Friend Shared ReadOnly Property NameTipRU() As String
+            Get
+                Return ResourceManager.GetString("NameTipRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Needed job before changing.
         '''</summary>
         Friend Shared ReadOnly Property NeedChangeFrom() As String
@@ -655,6 +817,24 @@ Namespace My.Resources
         Friend Shared ReadOnly Property ProgramNameRU() As String
             Get
                 Return ResourceManager.GetString("ProgramNameRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property SalaryTip() As String
+            Get
+                Return ResourceManager.GetString("SalaryTip", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Сколько будет зарабатывать игрок на данной профессии? .
+        '''</summary>
+        Friend Shared ReadOnly Property SalaryTipRU() As String
+            Get
+                Return ResourceManager.GetString("SalaryTipRU", resourceCulture)
             End Get
         End Property
         
@@ -727,6 +907,24 @@ Namespace My.Resources
         Friend Shared ReadOnly Property TeamNameRU() As String
             Get
                 Return ResourceManager.GetString("TeamNameRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property TeamTip() As String
+            Get
+                Return ResourceManager.GetString("TeamTip", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Можно использовать название вашей профессии (на латинице). Пример: TEAM_BANDIT.
+        '''</summary>
+        Friend Shared ReadOnly Property TeamTipRU() As String
+            Get
+                Return ResourceManager.GetString("TeamTipRU", resourceCulture)
             End Get
         End Property
         
@@ -839,6 +1037,24 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property VoteTip() As String
+            Get
+                Return ResourceManager.GetString("VoteTip", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Требуется ли создавать голосование для перехода на профессию?.
+        '''</summary>
+        Friend Shared ReadOnly Property VoteTipRU() As String
+            Get
+                Return ResourceManager.GetString("VoteTipRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to True.
         '''</summary>
         Friend Shared ReadOnly Property VoteYes() As String
@@ -871,6 +1087,24 @@ Namespace My.Resources
         Friend Shared ReadOnly Property WeaponCheckerRU() As String
             Get
                 Return ResourceManager.GetString("WeaponCheckerRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property WeaponTip() As String
+            Get
+                Return ResourceManager.GetString("WeaponTip", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to С какими оружиями будет появлятся игрок на данной профессии? (В кавычках через запятую) Пример: &quot;weapon_ak47&quot;, &quot;weapon_ar2&quot;.
+        '''</summary>
+        Friend Shared ReadOnly Property WeaponTipRU() As String
+            Get
+                Return ResourceManager.GetString("WeaponTipRU", resourceCulture)
             End Get
         End Property
     End Class

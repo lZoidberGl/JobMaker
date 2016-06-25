@@ -125,6 +125,18 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="EnglishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
+  </data>
+  <data name="EnglishToolStripMenuItem.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="РусскийToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
+  </data>
+  <data name="РусскийToolStripMenuItem.Text" xml:space="preserve">
+    <value>Русский</value>
+  </data>
   <data name="LanguageMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 48</value>
   </data>
@@ -158,18 +170,6 @@
   </data>
   <data name="&gt;&gt;LanguageSelector.ZOrder" xml:space="preserve">
     <value>27</value>
-  </data>
-  <data name="EnglishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 22</value>
-  </data>
-  <data name="EnglishToolStripMenuItem.Text" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="РусскийToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 22</value>
-  </data>
-  <data name="РусскийToolStripMenuItem.Text" xml:space="preserve">
-    <value>Русский</value>
   </data>
   <data name="BrowseModels.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1221,150 +1221,6 @@
   <data name="&gt;&gt;CopyAll.ZOrder" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="&gt;&gt;NoAccept.Name" xml:space="preserve">
-    <value>NoAccept</value>
-  </data>
-  <data name="&gt;&gt;NoAccept.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NoAccept.Parent" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;NoAccept.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;acceptcolor.Name" xml:space="preserve">
-    <value>acceptcolor</value>
-  </data>
-  <data name="&gt;&gt;acceptcolor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;acceptcolor.Parent" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;acceptcolor.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;BlueLabel.Name" xml:space="preserve">
-    <value>BlueLabel</value>
-  </data>
-  <data name="&gt;&gt;BlueLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BlueLabel.Parent" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;BlueLabel.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;GreenLabel.Name" xml:space="preserve">
-    <value>GreenLabel</value>
-  </data>
-  <data name="&gt;&gt;GreenLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GreenLabel.Parent" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;GreenLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;RedLabel.Name" xml:space="preserve">
-    <value>RedLabel</value>
-  </data>
-  <data name="&gt;&gt;RedLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RedLabel.Parent" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;RedLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;ResultValue.Name" xml:space="preserve">
-    <value>ResultValue</value>
-  </data>
-  <data name="&gt;&gt;ResultValue.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ResultValue.Parent" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;ResultValue.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;BlueBar.Name" xml:space="preserve">
-    <value>BlueBar</value>
-  </data>
-  <data name="&gt;&gt;BlueBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.HScrollBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BlueBar.Parent" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;BlueBar.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;GreenBar.Name" xml:space="preserve">
-    <value>GreenBar</value>
-  </data>
-  <data name="&gt;&gt;GreenBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.HScrollBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GreenBar.Parent" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;GreenBar.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;RedBar.Name" xml:space="preserve">
-    <value>RedBar</value>
-  </data>
-  <data name="&gt;&gt;RedBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.HScrollBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RedBar.Parent" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;RedBar.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;ResultColorPanel.Name" xml:space="preserve">
-    <value>ResultColorPanel</value>
-  </data>
-  <data name="&gt;&gt;ResultColorPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ResultColorPanel.Parent" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;ResultColorPanel.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="ColorSwatchPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 52</value>
-  </data>
-  <data name="ColorSwatchPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 300</value>
-  </data>
-  <data name="ColorSwatchPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
-  </data>
-  <data name="ColorSwatchPanel.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;ColorSwatchPanel.Name" xml:space="preserve">
-    <value>ColorSwatchPanel</value>
-  </data>
-  <data name="&gt;&gt;ColorSwatchPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ColorSwatchPanel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ColorSwatchPanel.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
   <data name="NoAccept.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAWERJREFUeF7t
@@ -2125,6 +1981,30 @@
   <data name="&gt;&gt;ResultColorPanel.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="ColorSwatchPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 52</value>
+  </data>
+  <data name="ColorSwatchPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 300</value>
+  </data>
+  <data name="ColorSwatchPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="ColorSwatchPanel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ColorSwatchPanel.Name" xml:space="preserve">
+    <value>ColorSwatchPanel</value>
+  </data>
+  <data name="&gt;&gt;ColorSwatchPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColorSwatchPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ColorSwatchPanel.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
   <data name="author.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -2683,6 +2563,21 @@
   <metadata name="MainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>144, 19</value>
   </metadata>
+  <data name="UpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="UpdateToolStripMenuItem.Text" xml:space="preserve">
+    <value>#update</value>
+  </data>
+  <data name="ChangesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="ChangesToolStripMenuItem.Text" xml:space="preserve">
+    <value>#changes</value>
+  </data>
+  <data name="ChangesToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="MainMenu.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -2706,48 +2601,6 @@
   </data>
   <data name="&gt;&gt;MainMenu.ZOrder" xml:space="preserve">
     <value>12</value>
-  </data>
-  <data name="UpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 20</value>
-  </data>
-  <data name="UpdateToolStripMenuItem.Text" xml:space="preserve">
-    <value>#update</value>
-  </data>
-  <data name="ChangesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 20</value>
-  </data>
-  <data name="ChangesToolStripMenuItem.Text" xml:space="preserve">
-    <value>#changes</value>
-  </data>
-  <data name="ChangesToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="HideCode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>640, 22</value>
-  </data>
-  <data name="HideCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>506, 23</value>
-  </data>
-  <data name="HideCode.TabIndex" type="System.Int32, mscorlib">
-    <value>48</value>
-  </data>
-  <data name="HideCode.Text" xml:space="preserve">
-    <value>#Hide</value>
-  </data>
-  <data name="HideCode.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;HideCode.Name" xml:space="preserve">
-    <value>HideCode</value>
-  </data>
-  <data name="&gt;&gt;HideCode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;HideCode.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;HideCode.ZOrder" xml:space="preserve">
-    <value>13</value>
   </data>
   <data name="TeamTip.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Script, 12pt, style=Bold</value>
@@ -2816,7 +2669,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;NameTip.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="ColorTip.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Script, 12pt, style=Bold</value>
@@ -2852,7 +2705,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ColorTip.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="SalaryTip.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Script, 12pt, style=Bold</value>
@@ -2888,7 +2741,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;SalaryTip.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="VoteTip.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Script, 12pt, style=Bold</value>
@@ -2924,7 +2777,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;VoteTip.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="WeaponTip.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Script, 12pt, style=Bold</value>
@@ -2960,7 +2813,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;WeaponTip.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="ModelTip.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Script, 12pt, style=Bold</value>
@@ -2996,7 +2849,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ModelTip.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="CategoryTip.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Script, 12pt, style=Bold</value>
@@ -3032,7 +2885,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CategoryTip.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="MaxTip.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Script, 12pt, style=Bold</value>
@@ -3068,7 +2921,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MaxTip.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="CommandTip.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Script, 12pt, style=Bold</value>
@@ -3104,7 +2957,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CommandTip.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="DescriptionTip.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Script, 12pt, style=Bold</value>
@@ -3140,7 +2993,34 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DescriptionTip.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
+  </data>
+  <data name="HideCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>640, 22</value>
+  </data>
+  <data name="HideCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>506, 23</value>
+  </data>
+  <data name="HideCode.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="HideCode.Text" xml:space="preserve">
+    <value>#Hide</value>
+  </data>
+  <data name="HideCode.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;HideCode.Name" xml:space="preserve">
+    <value>HideCode</value>
+  </data>
+  <data name="&gt;&gt;HideCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HideCode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;HideCode.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -3255,9 +3135,6 @@
         90/5yZ2Lb8aOL6v60IwvF8oFKoBGYB1wA+ZKoRqoBIoxdxMSvq2HSHpxgVHM6H0v0O41+DPAMeAI8C6m
         lHdo2m/vXHqz+X/wbGuC3K6/jgAAAABJRU5ErkJggg==
 </value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;EnglishToolStripMenuItem.Name" xml:space="preserve">
     <value>EnglishToolStripMenuItem</value>

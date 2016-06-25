@@ -118,7 +118,21 @@ Public Class Form1
             UpdateForm.DoMagic.Text = Localization.UpdateButton
             AdvancedSettings.AfterDeath.Text = Localization.AfterDeath
             AdvancedSettings.CustomCheck.Text = Localization.CustomCheck
-            HideCode.Text = Localization.Hide
+                        HideCode.Text = Localization.Hide
+            '-------------------------Tips-------------------------'
+            tip.SetToolTip(NameTip, Localization.NameTip)
+            tip.SetToolTip(SalaryTip, Localization.SalaryTip)
+            tip.SetToolTip(VoteTip, Localization.VoteTip)
+            tip.SetToolTip(WeaponTip, Localization.WeaponTip)
+            tip.SetToolTip(ModelTip, Localization.ModelTip)
+            tip.SetToolTip(CategoryTip, Localization.CategoryTip)
+            tip.SetToolTip(MaxTip, Localization.MaxTip)
+            tip.SetToolTip(CommandTip, Localization.CommandTip)
+            tip.SetToolTip(DescriptionTip, Localization.DescriptionTip)
+            tip.SetToolTip(LicenseTip, Localization.LicenseTip)
+            tip.SetToolTip(AdminTip, Localization.AdminTip)
+            tip.SetToolTip(TeamTip, Localization.TeamTip)
+            tip.SetToolTip(ColorTip, Localization.ColorTip)
         End If
 
         If (Thread.CurrentThread.CurrentUICulture Is CultureInfo.GetCultureInfo("ru-RU")) Then
@@ -167,6 +181,20 @@ Public Class Form1
             AdvancedSettings.AfterDeath.Text = Localization.AfterDeathRU
             AdvancedSettings.CustomCheck.Text = Localization.CustomCheckRU
             HideCode.Text = Localization.HideRU
+            '-------------------------Tips-------------------------'
+            tip.SetToolTip(NameTip, Localization.NameTipRU)
+            tip.SetToolTip(SalaryTip, Localization.SalaryTipRU)
+            tip.SetToolTip(VoteTip, Localization.VoteTipRU)
+            tip.SetToolTip(WeaponTip, Localization.WeaponTipRU)
+            tip.SetToolTip(ModelTip, Localization.ModelTipRU)
+            tip.SetToolTip(CategoryTip, Localization.CategoryTipRU)
+            tip.SetToolTip(MaxTip, Localization.MaxTipRU)
+            tip.SetToolTip(CommandTip, Localization.CommandTipRU)
+            tip.SetToolTip(DescriptionTip, Localization.DescriptionTipRU)
+            tip.SetToolTip(LicenseTip, Localization.LicenseTipRU)
+            tip.SetToolTip(AdminTip, Localization.AdminTipRU)
+            tip.SetToolTip(TeamTip, Localization.TeamTipRU)
+            tip.SetToolTip(ColorTip, Localization.ColorTipRU)
         End If
         ''↑---------USES LOCALIZATION----------↑''
     End Sub

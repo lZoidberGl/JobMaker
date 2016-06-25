@@ -83,11 +83,13 @@ Partial Class Form1
         Me.JobAdmin = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.AdminTip = New System.Windows.Forms.Label()
         Me.AdminResult = New System.Windows.Forms.Label()
         Me.User = New System.Windows.Forms.RadioButton()
         Me.Admin = New System.Windows.Forms.RadioButton()
         Me.SuperAdmin = New System.Windows.Forms.RadioButton()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.LicenseTip = New System.Windows.Forms.Label()
         Me.LicenseNo = New System.Windows.Forms.RadioButton()
         Me.LicenseYes = New System.Windows.Forms.RadioButton()
         Me.LicenseResult = New System.Windows.Forms.Label()
@@ -98,7 +100,6 @@ Partial Class Form1
         Me.UpdateToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ChangesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.tip = New System.Windows.Forms.ToolTip(Me.components)
-        Me.HideCode = New System.Windows.Forms.Button()
         Me.TeamTip = New System.Windows.Forms.Label()
         Me.NameTip = New System.Windows.Forms.Label()
         Me.ColorTip = New System.Windows.Forms.Label()
@@ -110,8 +111,7 @@ Partial Class Form1
         Me.MaxTip = New System.Windows.Forms.Label()
         Me.CommandTip = New System.Windows.Forms.Label()
         Me.DescriptionTip = New System.Windows.Forms.Label()
-        Me.LicenseTip = New System.Windows.Forms.Label()
-        Me.AdminTip = New System.Windows.Forms.Label()
+        Me.HideCode = New System.Windows.Forms.Button()
         CType(Me.LanguageSelector, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.LanguageMenu.SuspendLayout()
         CType(Me.JobMaximum, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -491,6 +491,13 @@ Partial Class Form1
         resources.ApplyResources(Me.Panel2, "Panel2")
         Me.Panel2.Name = "Panel2"
         '
+        'AdminTip
+        '
+        resources.ApplyResources(Me.AdminTip, "AdminTip")
+        Me.AdminTip.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.AdminTip.Name = "AdminTip"
+        Me.tip.SetToolTip(Me.AdminTip, resources.GetString("AdminTip.ToolTip"))
+        '
         'AdminResult
         '
         resources.ApplyResources(Me.AdminResult, "AdminResult")
@@ -531,6 +538,13 @@ Partial Class Form1
         Me.Panel3.Controls.Add(Me.JobLicense)
         resources.ApplyResources(Me.Panel3, "Panel3")
         Me.Panel3.Name = "Panel3"
+        '
+        'LicenseTip
+        '
+        resources.ApplyResources(Me.LicenseTip, "LicenseTip")
+        Me.LicenseTip.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.LicenseTip.Name = "LicenseTip"
+        Me.tip.SetToolTip(Me.LicenseTip, resources.GetString("LicenseTip.ToolTip"))
         '
         'LicenseNo
         '
@@ -588,12 +602,6 @@ Partial Class Form1
         '
         Me.ChangesToolStripMenuItem.Name = "ChangesToolStripMenuItem"
         resources.ApplyResources(Me.ChangesToolStripMenuItem, "ChangesToolStripMenuItem")
-        '
-        'HideCode
-        '
-        resources.ApplyResources(Me.HideCode, "HideCode")
-        Me.HideCode.Name = "HideCode"
-        Me.HideCode.UseVisualStyleBackColor = True
         '
         'TeamTip
         '
@@ -672,19 +680,11 @@ Partial Class Form1
         Me.DescriptionTip.Name = "DescriptionTip"
         Me.tip.SetToolTip(Me.DescriptionTip, resources.GetString("DescriptionTip.ToolTip"))
         '
-        'LicenseTip
+        'HideCode
         '
-        resources.ApplyResources(Me.LicenseTip, "LicenseTip")
-        Me.LicenseTip.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.LicenseTip.Name = "LicenseTip"
-        Me.tip.SetToolTip(Me.LicenseTip, resources.GetString("LicenseTip.ToolTip"))
-        '
-        'AdminTip
-        '
-        resources.ApplyResources(Me.AdminTip, "AdminTip")
-        Me.AdminTip.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.AdminTip.Name = "AdminTip"
-        Me.tip.SetToolTip(Me.AdminTip, resources.GetString("AdminTip.ToolTip"))
+        resources.ApplyResources(Me.HideCode, "HideCode")
+        Me.HideCode.Name = "HideCode"
+        Me.HideCode.UseVisualStyleBackColor = True
         '
         'Form1
         '
