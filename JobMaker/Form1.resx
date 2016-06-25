@@ -157,7 +157,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LanguageSelector.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>27</value>
   </data>
   <data name="EnglishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>119, 22</value>
@@ -196,7 +196,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BrowseModels.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>29</value>
   </data>
   <data name="VoteNo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -280,7 +280,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;JobCategoryBox.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>30</value>
   </data>
   <data name="JobModelBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Print, 9pt, style=Bold</value>
@@ -304,7 +304,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;JobModelBox.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>31</value>
   </data>
   <data name="JobWeaponsBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Print, 9pt, style=Bold</value>
@@ -328,7 +328,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;JobWeaponsBox.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>32</value>
   </data>
   <data name="JobSalaryBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Print, 9pt, style=Bold</value>
@@ -352,7 +352,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;JobSalaryBox.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>33</value>
   </data>
   <data name="JobNameBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Print, 9pt, style=Bold</value>
@@ -376,7 +376,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;JobNameBox.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>34</value>
   </data>
   <data name="TeamBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Print, 9pt, style=Bold</value>
@@ -403,7 +403,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TeamBox.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>36</value>
   </data>
   <data name="jobvote.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -436,7 +436,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;jobvote.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>37</value>
   </data>
   <data name="jobcategory.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -469,7 +469,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;jobcategory.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>38</value>
   </data>
   <data name="jobmodels.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -502,7 +502,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;jobmodels.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>39</value>
   </data>
   <data name="jobsalary.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -535,7 +535,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;jobsalary.ZOrder" xml:space="preserve">
-    <value>28</value>
+    <value>40</value>
   </data>
   <data name="jobweapons.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -568,7 +568,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;jobweapons.ZOrder" xml:space="preserve">
-    <value>29</value>
+    <value>41</value>
   </data>
   <data name="jobname.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -601,7 +601,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;jobname.ZOrder" xml:space="preserve">
-    <value>30</value>
+    <value>42</value>
   </data>
   <data name="teamname.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -634,7 +634,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;teamname.ZOrder" xml:space="preserve">
-    <value>31</value>
+    <value>43</value>
   </data>
   <data name="VoteResult.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -669,9 +669,6 @@
   <data name="&gt;&gt;VoteResult.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <metadata name="Anim.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>153, 17</value>
-  </metadata>
   <data name="GenCode.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Print, 12pt, style=Bold</value>
   </data>
@@ -697,13 +694,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;GenCode.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>26</value>
   </data>
   <data name="CodeBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>630, 23</value>
+    <value>640, 43</value>
   </data>
   <data name="CodeBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>504, 516</value>
+    <value>504, 495</value>
   </data>
   <data name="CodeBox.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -724,7 +721,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CodeBox.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>25</value>
   </data>
   <data name="ColorLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -757,7 +754,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ColorLabel.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>24</value>
   </data>
   <data name="ColorBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Print, 9pt, style=Bold</value>
@@ -787,7 +784,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ColorBox.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>35</value>
   </data>
   <data name="JobMaximum.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Print, 9pt, style=Bold</value>
@@ -811,7 +808,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;JobMaximum.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>23</value>
   </data>
   <data name="jobmax.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -844,7 +841,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;jobmax.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>22</value>
   </data>
   <data name="CommandBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Print, 9pt, style=Bold</value>
@@ -868,7 +865,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CommandBox.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>20</value>
   </data>
   <data name="jobcommand.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -901,7 +898,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;jobcommand.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>21</value>
   </data>
   <data name="ColorPick.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -928,7 +925,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ColorPick.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>28</value>
   </data>
   <data name="DescriptionLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -961,7 +958,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DescriptionLabel.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>19</value>
   </data>
   <data name="DescriptionBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Print, 9pt, style=Bold</value>
@@ -985,7 +982,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DescriptionBox.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>18</value>
   </data>
   <data name="TeamPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>453, 52</value>
@@ -1006,7 +1003,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TeamPanel.ZOrder" xml:space="preserve">
-    <value>41</value>
+    <value>53</value>
   </data>
   <data name="JobNamePanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>453, 86</value>
@@ -1027,7 +1024,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;JobNamePanel.ZOrder" xml:space="preserve">
-    <value>40</value>
+    <value>52</value>
   </data>
   <data name="JobColorPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>453, 121</value>
@@ -1048,7 +1045,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;JobColorPanel.ZOrder" xml:space="preserve">
-    <value>39</value>
+    <value>51</value>
   </data>
   <data name="SalaryPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>453, 157</value>
@@ -1069,7 +1066,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;SalaryPanel.ZOrder" xml:space="preserve">
-    <value>38</value>
+    <value>50</value>
   </data>
   <data name="WeaponsPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>453, 224</value>
@@ -1090,7 +1087,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;WeaponsPanel.ZOrder" xml:space="preserve">
-    <value>37</value>
+    <value>49</value>
   </data>
   <data name="ModelsPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>453, 259</value>
@@ -1111,7 +1108,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ModelsPanel.ZOrder" xml:space="preserve">
-    <value>36</value>
+    <value>48</value>
   </data>
   <data name="CategoryPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>453, 294</value>
@@ -1132,7 +1129,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CategoryPanel.ZOrder" xml:space="preserve">
-    <value>35</value>
+    <value>47</value>
   </data>
   <data name="DescriptionPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>453, 399</value>
@@ -1153,7 +1150,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DescriptionPanel.ZOrder" xml:space="preserve">
-    <value>34</value>
+    <value>46</value>
   </data>
   <data name="CommandPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>453, 364</value>
@@ -1174,7 +1171,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CommandPanel.ZOrder" xml:space="preserve">
-    <value>33</value>
+    <value>45</value>
   </data>
   <data name="JobMaxPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>453, 329</value>
@@ -1195,19 +1192,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;JobMaxPanel.ZOrder" xml:space="preserve">
-    <value>32</value>
+    <value>44</value>
   </data>
   <data name="CopyAll.Location" type="System.Drawing.Point, System.Drawing">
-    <value>630, 538</value>
+    <value>640, 537</value>
   </data>
   <data name="CopyAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>506, 22</value>
+    <value>506, 24</value>
   </data>
   <data name="CopyAll.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
   </data>
   <data name="CopyAll.Text" xml:space="preserve">
     <value>#Copy</value>
+  </data>
+  <data name="CopyAll.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;CopyAll.Name" xml:space="preserve">
     <value>CopyAll</value>
@@ -1219,7 +1219,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CopyAll.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>17</value>
   </data>
   <data name="&gt;&gt;NoAccept.Name" xml:space="preserve">
     <value>NoAccept</value>
@@ -1342,7 +1342,7 @@
     <value>9</value>
   </data>
   <data name="ColorSwatchPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 190</value>
+    <value>90, 52</value>
   </data>
   <data name="ColorSwatchPanel.Size" type="System.Drawing.Size, System.Drawing">
     <value>300, 300</value>
@@ -1363,7 +1363,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ColorSwatchPanel.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>16</value>
   </data>
   <data name="NoAccept.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2153,7 +2153,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;author.ZOrder" xml:space="preserve">
-    <value>45</value>
+    <value>57</value>
   </data>
   <data name="JobLicense.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2186,7 +2186,7 @@
     <value>Panel3</value>
   </data>
   <data name="&gt;&gt;JobLicense.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="JobAdmin.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2219,7 +2219,7 @@
     <value>Panel2</value>
   </data>
   <data name="&gt;&gt;JobAdmin.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>432, 190</value>
@@ -2240,76 +2240,46 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
-    <value>44</value>
+    <value>56</value>
   </data>
-  <data name="&gt;&gt;AdminResult.Name" xml:space="preserve">
-    <value>AdminResult</value>
+  <data name="AdminTip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Script, 12pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;AdminResult.Type" xml:space="preserve">
+  <data name="AdminTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AdminTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>617, 2</value>
+  </data>
+  <data name="AdminTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 30</value>
+  </data>
+  <data name="AdminTip.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="AdminTip.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="AdminTip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <metadata name="tip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>249, 17</value>
+  </metadata>
+  <data name="AdminTip.ToolTip" xml:space="preserve">
+    <value>#AdminTip</value>
+  </data>
+  <data name="&gt;&gt;AdminTip.Name" xml:space="preserve">
+    <value>AdminTip</value>
+  </data>
+  <data name="&gt;&gt;AdminTip.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;AdminResult.Parent" xml:space="preserve">
+  <data name="&gt;&gt;AdminTip.Parent" xml:space="preserve">
     <value>Panel2</value>
   </data>
-  <data name="&gt;&gt;AdminResult.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;AdminTip.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="&gt;&gt;User.Name" xml:space="preserve">
-    <value>User</value>
-  </data>
-  <data name="&gt;&gt;User.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;User.Parent" xml:space="preserve">
-    <value>Panel2</value>
-  </data>
-  <data name="&gt;&gt;User.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;Admin.Name" xml:space="preserve">
-    <value>Admin</value>
-  </data>
-  <data name="&gt;&gt;Admin.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Admin.Parent" xml:space="preserve">
-    <value>Panel2</value>
-  </data>
-  <data name="&gt;&gt;Admin.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;SuperAdmin.Name" xml:space="preserve">
-    <value>SuperAdmin</value>
-  </data>
-  <data name="&gt;&gt;SuperAdmin.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SuperAdmin.Parent" xml:space="preserve">
-    <value>Panel2</value>
-  </data>
-  <data name="&gt;&gt;SuperAdmin.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="Panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-2, 462</value>
-  </data>
-  <data name="Panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>635, 34</value>
-  </data>
-  <data name="Panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>41</value>
-  </data>
-  <data name="&gt;&gt;Panel2.Name" xml:space="preserve">
-    <value>Panel2</value>
-  </data>
-  <data name="&gt;&gt;Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Panel2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Panel2.ZOrder" xml:space="preserve">
-    <value>43</value>
   </data>
   <data name="AdminResult.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2342,7 +2312,7 @@
     <value>Panel2</value>
   </data>
   <data name="&gt;&gt;AdminResult.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="User.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2378,7 +2348,7 @@
     <value>Panel2</value>
   </data>
   <data name="&gt;&gt;User.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="Admin.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2414,7 +2384,7 @@
     <value>Panel2</value>
   </data>
   <data name="&gt;&gt;Admin.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="SuperAdmin.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2447,64 +2417,64 @@
     <value>Panel2</value>
   </data>
   <data name="&gt;&gt;SuperAdmin.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;LicenseNo.Name" xml:space="preserve">
-    <value>LicenseNo</value>
+  <data name="Panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-2, 462</value>
   </data>
-  <data name="&gt;&gt;LicenseNo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LicenseNo.Parent" xml:space="preserve">
-    <value>Panel3</value>
-  </data>
-  <data name="&gt;&gt;LicenseNo.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;LicenseYes.Name" xml:space="preserve">
-    <value>LicenseYes</value>
-  </data>
-  <data name="&gt;&gt;LicenseYes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LicenseYes.Parent" xml:space="preserve">
-    <value>Panel3</value>
-  </data>
-  <data name="&gt;&gt;LicenseYes.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;LicenseResult.Name" xml:space="preserve">
-    <value>LicenseResult</value>
-  </data>
-  <data name="&gt;&gt;LicenseResult.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LicenseResult.Parent" xml:space="preserve">
-    <value>Panel3</value>
-  </data>
-  <data name="&gt;&gt;LicenseResult.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="Panel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-2, 431</value>
-  </data>
-  <data name="Panel3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Panel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>635, 34</value>
   </data>
-  <data name="Panel3.TabIndex" type="System.Int32, mscorlib">
-    <value>42</value>
+  <data name="Panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
   </data>
-  <data name="&gt;&gt;Panel3.Name" xml:space="preserve">
-    <value>Panel3</value>
+  <data name="&gt;&gt;Panel2.Name" xml:space="preserve">
+    <value>Panel2</value>
   </data>
-  <data name="&gt;&gt;Panel3.Type" xml:space="preserve">
+  <data name="&gt;&gt;Panel2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Panel3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Panel2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;Panel3.ZOrder" xml:space="preserve">
-    <value>42</value>
+  <data name="&gt;&gt;Panel2.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="LicenseTip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Script, 12pt, style=Bold</value>
+  </data>
+  <data name="LicenseTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LicenseTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>617, 1</value>
+  </data>
+  <data name="LicenseTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 30</value>
+  </data>
+  <data name="LicenseTip.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="LicenseTip.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="LicenseTip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="LicenseTip.ToolTip" xml:space="preserve">
+    <value>#LicenseTip</value>
+  </data>
+  <data name="&gt;&gt;LicenseTip.Name" xml:space="preserve">
+    <value>LicenseTip</value>
+  </data>
+  <data name="&gt;&gt;LicenseTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LicenseTip.Parent" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;LicenseTip.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="LicenseNo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2537,7 +2507,7 @@
     <value>Panel3</value>
   </data>
   <data name="&gt;&gt;LicenseNo.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="LicenseYes.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2570,7 +2540,7 @@
     <value>Panel3</value>
   </data>
   <data name="&gt;&gt;LicenseYes.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="LicenseResult.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2606,7 +2576,28 @@
     <value>Panel3</value>
   </data>
   <data name="&gt;&gt;LicenseResult.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
+  </data>
+  <data name="Panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-2, 431</value>
+  </data>
+  <data name="Panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>635, 34</value>
+  </data>
+  <data name="Panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Name" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel3.ZOrder" xml:space="preserve">
+    <value>54</value>
   </data>
   <data name="ShowAdvSet.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 498</value>
@@ -2630,7 +2621,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ShowAdvSet.ZOrder" xml:space="preserve">
-    <value>46</value>
+    <value>58</value>
   </data>
   <data name="VersLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe Print, 9.75pt, style=Bold</value>
@@ -2660,61 +2651,61 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;VersLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>15</value>
   </data>
-  <data name="WeponShow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="WeaponShow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="WeponShow.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="WeaponShow.Location" type="System.Drawing.Point, System.Drawing">
     <value>418, 224</value>
   </data>
-  <data name="WeponShow.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="WeaponShow.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 33</value>
   </data>
-  <data name="WeponShow.TabIndex" type="System.Int32, mscorlib">
+  <data name="WeaponShow.TabIndex" type="System.Int32, mscorlib">
     <value>45</value>
   </data>
-  <data name="WeponShow.Text" xml:space="preserve">
+  <data name="WeaponShow.Text" xml:space="preserve">
     <value>...</value>
   </data>
-  <data name="&gt;&gt;WeponShow.Name" xml:space="preserve">
-    <value>WeponShow</value>
+  <data name="&gt;&gt;WeaponShow.Name" xml:space="preserve">
+    <value>WeaponShow</value>
   </data>
-  <data name="&gt;&gt;WeponShow.Type" xml:space="preserve">
+  <data name="&gt;&gt;WeaponShow.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;WeponShow.Parent" xml:space="preserve">
+  <data name="&gt;&gt;WeaponShow.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;WeponShow.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;WeaponShow.ZOrder" xml:space="preserve">
+    <value>14</value>
   </data>
-  <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>348, 17</value>
+  <metadata name="MainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>144, 19</value>
   </metadata>
-  <data name="MenuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="MainMenu.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="MenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1134, 24</value>
+  <data name="MainMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1144, 24</value>
   </data>
-  <data name="MenuStrip1.TabIndex" type="System.Int32, mscorlib">
+  <data name="MainMenu.TabIndex" type="System.Int32, mscorlib">
     <value>47</value>
   </data>
-  <data name="MenuStrip1.Text" xml:space="preserve">
+  <data name="MainMenu.Text" xml:space="preserve">
     <value>MainMenu</value>
   </data>
-  <data name="&gt;&gt;MenuStrip1.Name" xml:space="preserve">
-    <value>MenuStrip1</value>
+  <data name="&gt;&gt;MainMenu.Name" xml:space="preserve">
+    <value>MainMenu</value>
   </data>
-  <data name="&gt;&gt;MenuStrip1.Type" xml:space="preserve">
+  <data name="&gt;&gt;MainMenu.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;MenuStrip1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;MainMenu.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;MenuStrip1.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;MainMenu.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="UpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 20</value>
@@ -2731,6 +2722,426 @@
   <data name="ChangesToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="HideCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>640, 22</value>
+  </data>
+  <data name="HideCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>506, 23</value>
+  </data>
+  <data name="HideCode.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="HideCode.Text" xml:space="preserve">
+    <value>#Hide</value>
+  </data>
+  <data name="HideCode.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;HideCode.Name" xml:space="preserve">
+    <value>HideCode</value>
+  </data>
+  <data name="&gt;&gt;HideCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HideCode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;HideCode.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="TeamTip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Script, 12pt, style=Bold</value>
+  </data>
+  <data name="TeamTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>615, 51</value>
+  </data>
+  <data name="TeamTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 30</value>
+  </data>
+  <data name="TeamTip.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="TeamTip.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="TeamTip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="TeamTip.ToolTip" xml:space="preserve">
+    <value>#TeamTip</value>
+  </data>
+  <data name="&gt;&gt;TeamTip.Name" xml:space="preserve">
+    <value>TeamTip</value>
+  </data>
+  <data name="&gt;&gt;TeamTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TeamTip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TeamTip.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="NameTip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Script, 12pt, style=Bold</value>
+  </data>
+  <data name="NameTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NameTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>615, 85</value>
+  </data>
+  <data name="NameTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 30</value>
+  </data>
+  <data name="NameTip.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="NameTip.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="NameTip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="NameTip.ToolTip" xml:space="preserve">
+    <value>#NameTip</value>
+  </data>
+  <data name="&gt;&gt;NameTip.Name" xml:space="preserve">
+    <value>NameTip</value>
+  </data>
+  <data name="&gt;&gt;NameTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NameTip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NameTip.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ColorTip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Script, 12pt, style=Bold</value>
+  </data>
+  <data name="ColorTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ColorTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>615, 121</value>
+  </data>
+  <data name="ColorTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 30</value>
+  </data>
+  <data name="ColorTip.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="ColorTip.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="ColorTip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ColorTip.ToolTip" xml:space="preserve">
+    <value>#ColorTip</value>
+  </data>
+  <data name="&gt;&gt;ColorTip.Name" xml:space="preserve">
+    <value>ColorTip</value>
+  </data>
+  <data name="&gt;&gt;ColorTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColorTip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ColorTip.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="SalaryTip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Script, 12pt, style=Bold</value>
+  </data>
+  <data name="SalaryTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SalaryTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>615, 156</value>
+  </data>
+  <data name="SalaryTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 30</value>
+  </data>
+  <data name="SalaryTip.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="SalaryTip.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="SalaryTip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="SalaryTip.ToolTip" xml:space="preserve">
+    <value>#SalaryTip</value>
+  </data>
+  <data name="&gt;&gt;SalaryTip.Name" xml:space="preserve">
+    <value>SalaryTip</value>
+  </data>
+  <data name="&gt;&gt;SalaryTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SalaryTip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SalaryTip.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="VoteTip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Script, 12pt, style=Bold</value>
+  </data>
+  <data name="VoteTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="VoteTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>615, 191</value>
+  </data>
+  <data name="VoteTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 30</value>
+  </data>
+  <data name="VoteTip.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="VoteTip.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="VoteTip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="VoteTip.ToolTip" xml:space="preserve">
+    <value>#VoteTip</value>
+  </data>
+  <data name="&gt;&gt;VoteTip.Name" xml:space="preserve">
+    <value>VoteTip</value>
+  </data>
+  <data name="&gt;&gt;VoteTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VoteTip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;VoteTip.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="WeaponTip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Script, 12pt, style=Bold</value>
+  </data>
+  <data name="WeaponTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="WeaponTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>615, 223</value>
+  </data>
+  <data name="WeaponTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 30</value>
+  </data>
+  <data name="WeaponTip.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="WeaponTip.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="WeaponTip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="WeaponTip.ToolTip" xml:space="preserve">
+    <value>#WeaponTip</value>
+  </data>
+  <data name="&gt;&gt;WeaponTip.Name" xml:space="preserve">
+    <value>WeaponTip</value>
+  </data>
+  <data name="&gt;&gt;WeaponTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WeaponTip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;WeaponTip.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ModelTip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Script, 12pt, style=Bold</value>
+  </data>
+  <data name="ModelTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ModelTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>615, 259</value>
+  </data>
+  <data name="ModelTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 30</value>
+  </data>
+  <data name="ModelTip.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="ModelTip.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="ModelTip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ModelTip.ToolTip" xml:space="preserve">
+    <value>#ModelTip</value>
+  </data>
+  <data name="&gt;&gt;ModelTip.Name" xml:space="preserve">
+    <value>ModelTip</value>
+  </data>
+  <data name="&gt;&gt;ModelTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ModelTip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ModelTip.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CategoryTip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Script, 12pt, style=Bold</value>
+  </data>
+  <data name="CategoryTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CategoryTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>615, 293</value>
+  </data>
+  <data name="CategoryTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 30</value>
+  </data>
+  <data name="CategoryTip.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="CategoryTip.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="CategoryTip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="CategoryTip.ToolTip" xml:space="preserve">
+    <value>#CategoryTip</value>
+  </data>
+  <data name="&gt;&gt;CategoryTip.Name" xml:space="preserve">
+    <value>CategoryTip</value>
+  </data>
+  <data name="&gt;&gt;CategoryTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CategoryTip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CategoryTip.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="MaxTip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Script, 12pt, style=Bold</value>
+  </data>
+  <data name="MaxTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MaxTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>615, 327</value>
+  </data>
+  <data name="MaxTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 30</value>
+  </data>
+  <data name="MaxTip.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="MaxTip.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="MaxTip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="MaxTip.ToolTip" xml:space="preserve">
+    <value>#MaxTip</value>
+  </data>
+  <data name="&gt;&gt;MaxTip.Name" xml:space="preserve">
+    <value>MaxTip</value>
+  </data>
+  <data name="&gt;&gt;MaxTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MaxTip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MaxTip.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CommandTip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Script, 12pt, style=Bold</value>
+  </data>
+  <data name="CommandTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CommandTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>615, 363</value>
+  </data>
+  <data name="CommandTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 30</value>
+  </data>
+  <data name="CommandTip.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="CommandTip.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="CommandTip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="CommandTip.ToolTip" xml:space="preserve">
+    <value>#CommandTip</value>
+  </data>
+  <data name="&gt;&gt;CommandTip.Name" xml:space="preserve">
+    <value>CommandTip</value>
+  </data>
+  <data name="&gt;&gt;CommandTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CommandTip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CommandTip.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DescriptionTip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Script, 12pt, style=Bold</value>
+  </data>
+  <data name="DescriptionTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DescriptionTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>615, 398</value>
+  </data>
+  <data name="DescriptionTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 30</value>
+  </data>
+  <data name="DescriptionTip.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="DescriptionTip.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="DescriptionTip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="DescriptionTip.ToolTip" xml:space="preserve">
+    <value>#DescriptionTip</value>
+  </data>
+  <data name="&gt;&gt;DescriptionTip.Name" xml:space="preserve">
+    <value>DescriptionTip</value>
+  </data>
+  <data name="&gt;&gt;DescriptionTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DescriptionTip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DescriptionTip.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -2741,7 +3152,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1134, 559</value>
+    <value>1144, 561</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2845,6 +3256,9 @@
         lHdo2m/vXHqz+X/wbGuC3K6/jgAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="&gt;&gt;EnglishToolStripMenuItem.Name" xml:space="preserve">
     <value>EnglishToolStripMenuItem</value>
   </data>
@@ -2857,12 +3271,6 @@
   <data name="&gt;&gt;РусскийToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Anim.Name" xml:space="preserve">
-    <value>Anim</value>
-  </data>
-  <data name="&gt;&gt;Anim.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;UpdateToolStripMenuItem.Name" xml:space="preserve">
     <value>UpdateToolStripMenuItem</value>
   </data>
@@ -2874,6 +3282,12 @@
   </data>
   <data name="&gt;&gt;ChangesToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tip.Name" xml:space="preserve">
+    <value>tip</value>
+  </data>
+  <data name="&gt;&gt;tip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>

@@ -45,7 +45,6 @@ Partial Class Form1
         Me.jobname = New System.Windows.Forms.Label()
         Me.teamname = New System.Windows.Forms.Label()
         Me.VoteResult = New System.Windows.Forms.Label()
-        Me.Anim = New System.Windows.Forms.Timer(Me.components)
         Me.GenCode = New System.Windows.Forms.Button()
         Me.CodeBox = New System.Windows.Forms.RichTextBox()
         Me.ColorLabel = New System.Windows.Forms.Label()
@@ -95,9 +94,24 @@ Partial Class Form1
         Me.ShowAdvSet = New System.Windows.Forms.Button()
         Me.VersLabel = New System.Windows.Forms.Label()
         Me.WeaponShow = New System.Windows.Forms.Button()
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.MainMenu = New System.Windows.Forms.MenuStrip()
         Me.UpdateToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ChangesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.tip = New System.Windows.Forms.ToolTip(Me.components)
+        Me.HideCode = New System.Windows.Forms.Button()
+        Me.TeamTip = New System.Windows.Forms.Label()
+        Me.NameTip = New System.Windows.Forms.Label()
+        Me.ColorTip = New System.Windows.Forms.Label()
+        Me.SalaryTip = New System.Windows.Forms.Label()
+        Me.VoteTip = New System.Windows.Forms.Label()
+        Me.WeaponTip = New System.Windows.Forms.Label()
+        Me.ModelTip = New System.Windows.Forms.Label()
+        Me.CategoryTip = New System.Windows.Forms.Label()
+        Me.MaxTip = New System.Windows.Forms.Label()
+        Me.CommandTip = New System.Windows.Forms.Label()
+        Me.DescriptionTip = New System.Windows.Forms.Label()
+        Me.LicenseTip = New System.Windows.Forms.Label()
+        Me.AdminTip = New System.Windows.Forms.Label()
         CType(Me.LanguageSelector, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.LanguageMenu.SuspendLayout()
         CType(Me.JobMaximum, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -105,7 +119,7 @@ Partial Class Form1
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
-        Me.MenuStrip1.SuspendLayout()
+        Me.MainMenu.SuspendLayout()
         Me.SuspendLayout()
         '
         'LanguageSelector
@@ -232,10 +246,6 @@ Partial Class Form1
         resources.ApplyResources(Me.VoteResult, "VoteResult")
         Me.VoteResult.ForeColor = System.Drawing.Color.White
         Me.VoteResult.Name = "VoteResult"
-        '
-        'Anim
-        '
-        Me.Anim.Interval = 25
         '
         'GenCode
         '
@@ -472,6 +482,7 @@ Partial Class Form1
         '
         'Panel2
         '
+        Me.Panel2.Controls.Add(Me.AdminTip)
         Me.Panel2.Controls.Add(Me.AdminResult)
         Me.Panel2.Controls.Add(Me.User)
         Me.Panel2.Controls.Add(Me.Admin)
@@ -513,6 +524,7 @@ Partial Class Form1
         '
         'Panel3
         '
+        Me.Panel3.Controls.Add(Me.LicenseTip)
         Me.Panel3.Controls.Add(Me.LicenseNo)
         Me.Panel3.Controls.Add(Me.LicenseYes)
         Me.Panel3.Controls.Add(Me.LicenseResult)
@@ -554,18 +566,18 @@ Partial Class Form1
         Me.VersLabel.ForeColor = System.Drawing.SystemColors.ScrollBar
         Me.VersLabel.Name = "VersLabel"
         '
-        'WeponShow
+        'WeaponShow
         '
-        resources.ApplyResources(Me.WeaponShow, "WeponShow")
-        Me.WeaponShow.Name = "WeponShow"
+        resources.ApplyResources(Me.WeaponShow, "WeaponShow")
+        Me.WeaponShow.Name = "WeaponShow"
         Me.WeaponShow.UseVisualStyleBackColor = True
         '
-        'MenuStrip1
+        'MainMenu
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UpdateToolStripMenuItem, Me.ChangesToolStripMenuItem})
-        resources.ApplyResources(Me.MenuStrip1, "MenuStrip1")
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
+        Me.MainMenu.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UpdateToolStripMenuItem, Me.ChangesToolStripMenuItem})
+        resources.ApplyResources(Me.MainMenu, "MainMenu")
+        Me.MainMenu.Name = "MainMenu"
+        Me.MainMenu.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
         '
         'UpdateToolStripMenuItem
         '
@@ -577,12 +589,121 @@ Partial Class Form1
         Me.ChangesToolStripMenuItem.Name = "ChangesToolStripMenuItem"
         resources.ApplyResources(Me.ChangesToolStripMenuItem, "ChangesToolStripMenuItem")
         '
+        'HideCode
+        '
+        resources.ApplyResources(Me.HideCode, "HideCode")
+        Me.HideCode.Name = "HideCode"
+        Me.HideCode.UseVisualStyleBackColor = True
+        '
+        'TeamTip
+        '
+        resources.ApplyResources(Me.TeamTip, "TeamTip")
+        Me.TeamTip.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.TeamTip.Name = "TeamTip"
+        Me.tip.SetToolTip(Me.TeamTip, resources.GetString("TeamTip.ToolTip"))
+        '
+        'NameTip
+        '
+        resources.ApplyResources(Me.NameTip, "NameTip")
+        Me.NameTip.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.NameTip.Name = "NameTip"
+        Me.tip.SetToolTip(Me.NameTip, resources.GetString("NameTip.ToolTip"))
+        '
+        'ColorTip
+        '
+        resources.ApplyResources(Me.ColorTip, "ColorTip")
+        Me.ColorTip.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.ColorTip.Name = "ColorTip"
+        Me.tip.SetToolTip(Me.ColorTip, resources.GetString("ColorTip.ToolTip"))
+        '
+        'SalaryTip
+        '
+        resources.ApplyResources(Me.SalaryTip, "SalaryTip")
+        Me.SalaryTip.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.SalaryTip.Name = "SalaryTip"
+        Me.tip.SetToolTip(Me.SalaryTip, resources.GetString("SalaryTip.ToolTip"))
+        '
+        'VoteTip
+        '
+        resources.ApplyResources(Me.VoteTip, "VoteTip")
+        Me.VoteTip.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.VoteTip.Name = "VoteTip"
+        Me.tip.SetToolTip(Me.VoteTip, resources.GetString("VoteTip.ToolTip"))
+        '
+        'WeaponTip
+        '
+        resources.ApplyResources(Me.WeaponTip, "WeaponTip")
+        Me.WeaponTip.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.WeaponTip.Name = "WeaponTip"
+        Me.tip.SetToolTip(Me.WeaponTip, resources.GetString("WeaponTip.ToolTip"))
+        '
+        'ModelTip
+        '
+        resources.ApplyResources(Me.ModelTip, "ModelTip")
+        Me.ModelTip.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.ModelTip.Name = "ModelTip"
+        Me.tip.SetToolTip(Me.ModelTip, resources.GetString("ModelTip.ToolTip"))
+        '
+        'CategoryTip
+        '
+        resources.ApplyResources(Me.CategoryTip, "CategoryTip")
+        Me.CategoryTip.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.CategoryTip.Name = "CategoryTip"
+        Me.tip.SetToolTip(Me.CategoryTip, resources.GetString("CategoryTip.ToolTip"))
+        '
+        'MaxTip
+        '
+        resources.ApplyResources(Me.MaxTip, "MaxTip")
+        Me.MaxTip.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.MaxTip.Name = "MaxTip"
+        Me.tip.SetToolTip(Me.MaxTip, resources.GetString("MaxTip.ToolTip"))
+        '
+        'CommandTip
+        '
+        resources.ApplyResources(Me.CommandTip, "CommandTip")
+        Me.CommandTip.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.CommandTip.Name = "CommandTip"
+        Me.tip.SetToolTip(Me.CommandTip, resources.GetString("CommandTip.ToolTip"))
+        '
+        'DescriptionTip
+        '
+        resources.ApplyResources(Me.DescriptionTip, "DescriptionTip")
+        Me.DescriptionTip.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.DescriptionTip.Name = "DescriptionTip"
+        Me.tip.SetToolTip(Me.DescriptionTip, resources.GetString("DescriptionTip.ToolTip"))
+        '
+        'LicenseTip
+        '
+        resources.ApplyResources(Me.LicenseTip, "LicenseTip")
+        Me.LicenseTip.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.LicenseTip.Name = "LicenseTip"
+        Me.tip.SetToolTip(Me.LicenseTip, resources.GetString("LicenseTip.ToolTip"))
+        '
+        'AdminTip
+        '
+        resources.ApplyResources(Me.AdminTip, "AdminTip")
+        Me.AdminTip.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.AdminTip.Name = "AdminTip"
+        Me.tip.SetToolTip(Me.AdminTip, resources.GetString("AdminTip.ToolTip"))
+        '
         'Form1
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Highlight
-        Me.Controls.Add(Me.MenuStrip1)
+        Me.Controls.Add(Me.DescriptionTip)
+        Me.Controls.Add(Me.CommandTip)
+        Me.Controls.Add(Me.MaxTip)
+        Me.Controls.Add(Me.CategoryTip)
+        Me.Controls.Add(Me.ModelTip)
+        Me.Controls.Add(Me.WeaponTip)
+        Me.Controls.Add(Me.VoteTip)
+        Me.Controls.Add(Me.SalaryTip)
+        Me.Controls.Add(Me.ColorTip)
+        Me.Controls.Add(Me.NameTip)
+        Me.Controls.Add(Me.TeamTip)
+        Me.Controls.Add(Me.MainMenu)
+        Me.Controls.Add(Me.HideCode)
         Me.Controls.Add(Me.WeaponShow)
         Me.Controls.Add(Me.VersLabel)
         Me.Controls.Add(Me.ColorSwatchPanel)
@@ -640,8 +761,8 @@ Partial Class Form1
         Me.Panel2.PerformLayout()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
-        Me.MenuStrip1.ResumeLayout(False)
-        Me.MenuStrip1.PerformLayout()
+        Me.MainMenu.ResumeLayout(False)
+        Me.MainMenu.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -663,7 +784,6 @@ Partial Class Form1
     Private WithEvents jobname As Label
     Private WithEvents teamname As Label
     Private WithEvents VoteResult As Label
-    Private WithEvents Anim As Timer
     Friend WithEvents GenCode As Button
     Friend WithEvents CodeBox As RichTextBox
     Private WithEvents ColorLabel As Label
@@ -716,8 +836,23 @@ Partial Class Form1
     Friend WithEvents ShowAdvSet As Button
     Friend WithEvents VersLabel As Label
     Private WithEvents WeaponShow As Button
-    Friend WithEvents MenuStrip1 As MenuStrip
+    Friend WithEvents MainMenu As MenuStrip
     Friend WithEvents UpdateToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ChangesToolStripMenuItem As ToolStripMenuItem
     Public WithEvents JobWeaponsBox As TextBox
+    Friend WithEvents tip As ToolTip
+    Friend WithEvents HideCode As Button
+    Friend WithEvents TeamTip As Label
+    Friend WithEvents AdminTip As Label
+    Friend WithEvents LicenseTip As Label
+    Friend WithEvents NameTip As Label
+    Friend WithEvents ColorTip As Label
+    Friend WithEvents SalaryTip As Label
+    Friend WithEvents VoteTip As Label
+    Friend WithEvents WeaponTip As Label
+    Friend WithEvents ModelTip As Label
+    Friend WithEvents CategoryTip As Label
+    Friend WithEvents MaxTip As Label
+    Friend WithEvents CommandTip As Label
+    Friend WithEvents DescriptionTip As Label
 End Class

@@ -129,6 +129,12 @@
   <data name="AdvSettingsRU" xml:space="preserve">
     <value>Доп. настройки</value>
   </data>
+  <data name="AfterDeath" xml:space="preserve">
+    <value>Dismiss after death</value>
+  </data>
+  <data name="AfterDeathRU" xml:space="preserve">
+    <value>Уволить после смерти</value>
+  </data>
   <data name="ArrestStick" xml:space="preserve">
     <value>Arrest baton</value>
   </data>
@@ -165,11 +171,23 @@
   <data name="CopyButtonRU" xml:space="preserve">
     <value>Скопировать текст</value>
   </data>
+  <data name="CustomCheck" xml:space="preserve">
+    <value>ULX Team (For Example: VIP)</value>
+  </data>
+  <data name="CustomCheckRU" xml:space="preserve">
+    <value>ULX Группа (Например: VIP)</value>
+  </data>
   <data name="Generate" xml:space="preserve">
     <value>Generate job</value>
   </data>
   <data name="GenerateRU" xml:space="preserve">
     <value>Сгенерировать профессию</value>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>Hide job code</value>
+  </data>
+  <data name="HideRU" xml:space="preserve">
+    <value>Скрыть код профессии</value>
   </data>
   <data name="Hobo" xml:space="preserve">
     <value>Is it hobo?</value>
@@ -327,11 +345,23 @@
   <data name="UnArrestStickRU" xml:space="preserve">
     <value>Палка снятия ареста</value>
   </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="UpdateButtonRU" xml:space="preserve">
+    <value>Начать</value>
+  </data>
   <data name="UpdateMenu" xml:space="preserve">
     <value>Updating</value>
   </data>
   <data name="UpdateMenuRU" xml:space="preserve">
     <value>Обновление</value>
+  </data>
+  <data name="UpdateText" xml:space="preserve">
+    <value>Updating starts after pressing the button below.</value>
+  </data>
+  <data name="UpdateTextRU" xml:space="preserve">
+    <value>Обновление начнется после нажатия на кнопку ниже.</value>
   </data>
   <data name="User" xml:space="preserve">
     <value>User</value>

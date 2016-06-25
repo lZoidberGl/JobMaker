@@ -101,6 +101,24 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Dismiss after death.
+        '''</summary>
+        Friend Shared ReadOnly Property AfterDeath() As String
+            Get
+                Return ResourceManager.GetString("AfterDeath", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Уволить после смерти.
+        '''</summary>
+        Friend Shared ReadOnly Property AfterDeathRU() As String
+            Get
+                Return ResourceManager.GetString("AfterDeathRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Arrest baton.
         '''</summary>
         Friend Shared ReadOnly Property ArrestStick() As String
@@ -209,6 +227,24 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to ULX Team (For Example: VIP).
+        '''</summary>
+        Friend Shared ReadOnly Property CustomCheck() As String
+            Get
+                Return ResourceManager.GetString("CustomCheck", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to ULX Группа (Например: VIP).
+        '''</summary>
+        Friend Shared ReadOnly Property CustomCheckRU() As String
+            Get
+                Return ResourceManager.GetString("CustomCheckRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Generate job.
         '''</summary>
         Friend Shared ReadOnly Property Generate() As String
@@ -223,6 +259,24 @@ Namespace My.Resources
         Friend Shared ReadOnly Property GenerateRU() As String
             Get
                 Return ResourceManager.GetString("GenerateRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Hide job code.
+        '''</summary>
+        Friend Shared ReadOnly Property Hide() As String
+            Get
+                Return ResourceManager.GetString("Hide", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Скрыть код профессии.
+        '''</summary>
+        Friend Shared ReadOnly Property HideRU() As String
+            Get
+                Return ResourceManager.GetString("HideRU", resourceCulture)
             End Get
         End Property
         
@@ -695,6 +749,24 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Start.
+        '''</summary>
+        Friend Shared ReadOnly Property UpdateButton() As String
+            Get
+                Return ResourceManager.GetString("UpdateButton", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Начать.
+        '''</summary>
+        Friend Shared ReadOnly Property UpdateButtonRU() As String
+            Get
+                Return ResourceManager.GetString("UpdateButtonRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Updating.
         '''</summary>
         Friend Shared ReadOnly Property UpdateMenu() As String
@@ -709,6 +781,24 @@ Namespace My.Resources
         Friend Shared ReadOnly Property UpdateMenuRU() As String
             Get
                 Return ResourceManager.GetString("UpdateMenuRU", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Updating starts after pressing the button below..
+        '''</summary>
+        Friend Shared ReadOnly Property UpdateText() As String
+            Get
+                Return ResourceManager.GetString("UpdateText", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Обновление начнется после нажатия на кнопку ниже..
+        '''</summary>
+        Friend Shared ReadOnly Property UpdateTextRU() As String
+            Get
+                Return ResourceManager.GetString("UpdateTextRU", resourceCulture)
             End Get
         End Property
         

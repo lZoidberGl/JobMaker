@@ -4,13 +4,17 @@ Imports JobMaker.My.Resources
 Imports JobMaker.ModelsSelectorForm
 Imports System.IO
 Imports System.Text
+Imports System.Net
 
 Public Class Form1
-    'Link template "https://dl.dropboxusercontent.com/s/7lxyq9ks0tut177/versionNew.txt?dl=1"
-    Dim NewVer As String = ""
+    'Link template https://onedrive.live.com/download?cid=BB4AF649BFD8B31F&resid=BB4AF649BFD8B31F%217518&authkey=ADhnk-wV2r58CUI
+    Dim Web As New WebClient
     Dim ThisVer As String = Application.ProductVersion
+    Dim NewVer As String = Web.DownloadString(New Uri("https://onedrive.live.com/download?cid=BB4AF649BFD8B31F&resid=BB4AF649BFD8B31F%217518&authkey=ADhnk-wV2r58CUI"))
+
     'Standart size 640; 400
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'Web.DownloadFile(New Uri("https://www.dropbox.com/s/ch2s8bzy0t4tkq8/versionJobMaker.txt?dl=1"), "ver.txt")
         ''↓---------SETS LOCALIZATION----------↓''
 
         If (CultureInfo.InstalledUICulture.EnglishName = "Russian (Russia)") Then
@@ -20,12 +24,32 @@ Public Class Form1
         End If
 
         ''↑---------SETS LOCALIZATION----------↑''
-        Me.Width = 640
-        Me.Height = 598
+        Me.Width = 650
+        Me.Height = 600
         LoadLanguages()
-        VersLabel.Text = "Beta " + Application.ProductVersion
+        VersLabel.Text = "" + Application.ProductVersion
 
         CheckIfUpdated()
+
+        CheckUpdates()
+
+
+    End Sub
+
+    Private Sub CheckUpdates()
+        If (CultureInfo.InstalledUICulture.EnglishName = "Russian (Russia)") Then
+            Dim UpdateAvailable As String = "Доступно обновление"
+            If NewVer.Contains(ThisVer) Then
+            Else
+                MsgBox(UpdateAvailable + " v" + NewVer)
+            End If
+        Else
+            Dim UpdateAvailable As String = "Update Available"
+            If NewVer.Contains(ThisVer) Then
+            Else
+                MsgBox(UpdateAvailable + " v" + NewVer)
+            End If
+        End If
     End Sub
 
     Private Sub CheckIfUpdated()
@@ -90,6 +114,11 @@ Public Class Form1
             WeaponSelectorForm.CheckBox25.Text = Localization.ArrestStick
             WeaponSelectorForm.CheckBox24.Text = Localization.UnArrestStick
             UpdateToolStripMenuItem.Text = Localization.UpdateMenu
+            UpdateForm.MainText.Text = Localization.UpdateText
+            UpdateForm.DoMagic.Text = Localization.UpdateButton
+            AdvancedSettings.AfterDeath.Text = Localization.AfterDeath
+            AdvancedSettings.CustomCheck.Text = Localization.CustomCheck
+            HideCode.Text = Localization.Hide
         End If
 
         If (Thread.CurrentThread.CurrentUICulture Is CultureInfo.GetCultureInfo("ru-RU")) Then
@@ -133,6 +162,11 @@ Public Class Form1
             WeaponSelectorForm.CheckBox25.Text = Localization.ArrestStickRU
             WeaponSelectorForm.CheckBox24.Text = Localization.UnArrestStickRU
             UpdateToolStripMenuItem.Text = Localization.UpdateMenuRU
+            UpdateForm.MainText.Text = Localization.UpdateTextRU
+            UpdateForm.DoMagic.Text = Localization.UpdateButtonRU
+            AdvancedSettings.AfterDeath.Text = Localization.AfterDeathRU
+            AdvancedSettings.CustomCheck.Text = Localization.CustomCheckRU
+            HideCode.Text = Localization.HideRU
         End If
         ''↑---------USES LOCALIZATION----------↑''
     End Sub
@@ -152,8 +186,20 @@ Public Class Form1
     End Sub
 
     Private Sub GenCode_Click(sender As Object, e As EventArgs) Handles GenCode.Click
-        ExtendMe()
         GenerateCode()
+        ExtendAnim()
+    End Sub
+
+    Private Sub ExtendAnim()
+        HideCode.Visible = True
+        CodeBox.Visible = True
+        Dim width1 As Integer = Me.Width
+        Do Until width1 = 1150
+            Me.Width = width1
+            width1 += 5
+        Loop
+        HideCode.Enabled = True
+        GenCode.Enabled = True
     End Sub
 
     Public Sub GenerateCode()
@@ -190,20 +236,13 @@ Public Class Form1
         If AdvancedSettings.CookCheck.CheckState = CheckState.Checked Then
             CodeBox.Text = CodeBox.Text + "," + Environment.NewLine + "	cook = true"
         End If
-        CodeBox.Text = CodeBox.Text + Environment.NewLine + "})"
-    End Sub
-
-    Private Sub ExtendMe()
-        Anim.Start()
-        CodeBox.Visible = True
-    End Sub
-
-    Private Sub Timer_Tick(sender As Object, e As EventArgs) Handles Anim.Tick
-        If Me.Width < 1150 Then
-            Me.Width = Width + 15
-        Else
-            Anim.Stop()
+        If AdvancedSettings.DeathCheck.CheckState = CheckState.Checked Then
+            CodeBox.Text = CodeBox.Text + "," + Environment.NewLine + "	PlayerDeath = function(ply, weapon, killer) ply:changeTeam(GAMEMODE.DefaultTeam, true) end"
         End If
+        If AdvancedSettings.CustomChckCheck.CheckState = CheckState.Checked Then
+            CodeBox.Text = CodeBox.Text + "," + Environment.NewLine + "	customCheck = function(ply) return ply:GetUserGroup() == " + Chr(34) + AdvancedSettings.CustomCheckGroup.Text + Chr(34) + " end"
+        End If
+        CodeBox.Text = CodeBox.Text + Environment.NewLine + "})"
     End Sub
 
     Private Sub TeamBox_TextChanged(sender As Object, e As EventArgs) Handles TeamBox.TextChanged
@@ -214,7 +253,7 @@ Public Class Form1
                 TeamPanel.BackColor = Color.Red
             End If
         Else
-                TeamPanel.BackColor = Color.Red
+            TeamPanel.BackColor = Color.Red
         End If
         GenerateCode()
     End Sub
@@ -864,6 +903,22 @@ Public Class Form1
         If SaveVars.ChangeFromTxt IsNot "TEAM_" Then
             AdvancedSettings.NeedChangeFromText.Text = SaveVars.ChangeFromTxt
         End If
+
+        If SaveVars.DeadCheck = "true" Then
+            AdvancedSettings.DeathCheck.CheckState = CheckState.Checked
+        Else
+            AdvancedSettings.DeathCheck.CheckState = CheckState.Unchecked
+        End If
+
+        If SaveVars.CustomCheckChk = "true" Then
+            AdvancedSettings.CustomChckCheck.CheckState = CheckState.Checked
+        Else
+            AdvancedSettings.CustomChckCheck.CheckState = CheckState.Unchecked
+        End If
+
+        If SaveVars.CustomCheckTxt IsNot "" Then
+            AdvancedSettings.CustomCheckGroup.Text = SaveVars.CustomCheckTxt
+        End If
     End Sub
 
     Private Sub WeaponSelectorSaveProgress()
@@ -1032,15 +1087,52 @@ Public Class Form1
     End Sub
 
     Private Sub UpdateToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UpdateToolStripMenuItem.Click
-
-        If (Thread.CurrentThread.CurrentUICulture Is CultureInfo.GetCultureInfo("ru-RU")) Then
-            MessageBox.Show("Пока не готово!")
+        If NewVer.Contains(ThisVer) Then
+            If (Thread.CurrentThread.CurrentUICulture Is CultureInfo.GetCultureInfo("ru-RU")) Then
+                Dim NoUpdates As String = "Нет доступных обновлений."
+                MsgBox(NoUpdates)
+            Else
+                Dim NoUpdates As String = "There is no updates available."
+                MsgBox(NoUpdates)
+            End If
         Else
-            MessageBox.Show("Not implemented yet!")
+            If (Thread.CurrentThread.CurrentUICulture Is CultureInfo.GetCultureInfo("ru-RU")) Then
+                Dim ChoseText As String = "Доступно обновление! Хотите обновиться?"
+                Dim UpdateTitle As String = "Обновление до версии " + NewVer
+                Dim quest As DialogResult = MsgBox(ChoseText, MsgBoxStyle.YesNo, UpdateTitle)
+                If quest = DialogResult.Yes Then
+                    UpdateForm.Show()
+                End If
+            Else
+                Dim ChoseText As String = "New update is available! Do you want to update?"
+                Dim UpdateTitle As String = "Updating to version " + NewVer
+                Dim quest As DialogResult = MsgBox(ChoseText, MsgBoxStyle.YesNo, UpdateTitle)
+                If quest = DialogResult.Yes Then
+                    UpdateForm.Show()
+                End If
+            End If
+            LoadLanguages()
         End If
     End Sub
 
-    Private Sub CmdWork()
+    Private Sub HideCode_Click(sender As Object, e As EventArgs) Handles HideCode.Click
+        HideAnim()
+    End Sub
+
+    Private Sub HideAnim()
+        Dim width2 As Integer = Me.Width
+        HideCode.Enabled = False
+        GenCode.Enabled = False
+        HideCode.Hide()
+        CodeBox.Hide()
+        Do Until width2 = 650
+            Me.Width = width2
+            width2 -= 5
+        Loop
+        GenCode.Enabled = True
+    End Sub
+
+    Public Sub CmdWork()
 
         Dim delpath = Environment.CurrentDirectory + "\JobMaker.exe"
         Dim movepath = Environment.CurrentDirectory + "\Update.exe"

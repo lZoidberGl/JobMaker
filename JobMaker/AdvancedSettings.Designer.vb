@@ -22,11 +22,9 @@ Partial Class AdvancedSettings
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(AdvancedSettings))
-        Me.AdminResult = New System.Windows.Forms.Label()
-        Me.Admin = New System.Windows.Forms.RadioButton()
-        Me.SuperAdmin = New System.Windows.Forms.RadioButton()
-        Me.JobAdmin = New System.Windows.Forms.Label()
+        Me.AfterDeath = New System.Windows.Forms.Label()
         Me.NeedCangeFromPanel = New System.Windows.Forms.Panel()
         Me.NeedChangeFrom = New System.Windows.Forms.Label()
         Me.ChangeFromPanel = New System.Windows.Forms.Panel()
@@ -34,6 +32,7 @@ Partial Class AdvancedSettings
         Me.changecheck = New System.Windows.Forms.CheckBox()
         Me.Panele = New System.Windows.Forms.FlowLayoutPanel()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.DeathCheck = New System.Windows.Forms.CheckBox()
         Me.HoboPanel = New System.Windows.Forms.Panel()
         Me.HoboCheck = New System.Windows.Forms.CheckBox()
         Me.Hobo = New System.Windows.Forms.Label()
@@ -49,7 +48,13 @@ Partial Class AdvancedSettings
         Me.CookPanel = New System.Windows.Forms.Panel()
         Me.CookCheck = New System.Windows.Forms.CheckBox()
         Me.Cook = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.CustomChckCheck = New System.Windows.Forms.CheckBox()
+        Me.CustomCheckPanel = New System.Windows.Forms.Panel()
+        Me.CustomCheckGroup = New System.Windows.Forms.TextBox()
+        Me.CustomCheck = New System.Windows.Forms.Label()
         Me.ComingSoon = New System.Windows.Forms.Label()
+        Me.tip = New System.Windows.Forms.ToolTip(Me.components)
         Me.NeedCangeFromPanel.SuspendLayout()
         Me.ChangeFromPanel.SuspendLayout()
         Me.Panele.SuspendLayout()
@@ -59,34 +64,15 @@ Partial Class AdvancedSettings
         Me.MayorPanel.SuspendLayout()
         Me.ChiefPanel.SuspendLayout()
         Me.CookPanel.SuspendLayout()
+        Me.Panel1.SuspendLayout()
+        Me.CustomCheckPanel.SuspendLayout()
         Me.SuspendLayout()
         '
-        'AdminResult
+        'AfterDeath
         '
-        resources.ApplyResources(Me.AdminResult, "AdminResult")
-        Me.AdminResult.Name = "AdminResult"
-        '
-        'Admin
-        '
-        resources.ApplyResources(Me.Admin, "Admin")
-        Me.Admin.BackColor = System.Drawing.SystemColors.Highlight
-        Me.Admin.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Admin.Name = "Admin"
-        Me.Admin.UseVisualStyleBackColor = False
-        '
-        'SuperAdmin
-        '
-        resources.ApplyResources(Me.SuperAdmin, "SuperAdmin")
-        Me.SuperAdmin.BackColor = System.Drawing.SystemColors.Highlight
-        Me.SuperAdmin.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.SuperAdmin.Name = "SuperAdmin"
-        Me.SuperAdmin.UseVisualStyleBackColor = False
-        '
-        'JobAdmin
-        '
-        resources.ApplyResources(Me.JobAdmin, "JobAdmin")
-        Me.JobAdmin.ForeColor = System.Drawing.Color.White
-        Me.JobAdmin.Name = "JobAdmin"
+        resources.ApplyResources(Me.AfterDeath, "AfterDeath")
+        Me.AfterDeath.ForeColor = System.Drawing.Color.White
+        Me.AfterDeath.Name = "AfterDeath"
         '
         'NeedCangeFromPanel
         '
@@ -104,7 +90,7 @@ Partial Class AdvancedSettings
         '
         'ChangeFromPanel
         '
-        Me.ChangeFromPanel.BackColor = System.Drawing.Color.Red
+        Me.ChangeFromPanel.BackColor = System.Drawing.Color.LightGray
         Me.ChangeFromPanel.Controls.Add(Me.NeedChangeFromText)
         resources.ApplyResources(Me.ChangeFromPanel, "ChangeFromPanel")
         Me.ChangeFromPanel.Name = "ChangeFromPanel"
@@ -130,17 +116,22 @@ Partial Class AdvancedSettings
         Me.Panele.Controls.Add(Me.MayorPanel)
         Me.Panele.Controls.Add(Me.ChiefPanel)
         Me.Panele.Controls.Add(Me.CookPanel)
+        Me.Panele.Controls.Add(Me.Panel1)
         resources.ApplyResources(Me.Panele, "Panele")
         Me.Panele.Name = "Panele"
         '
         'Panel2
         '
-        Me.Panel2.Controls.Add(Me.JobAdmin)
-        Me.Panel2.Controls.Add(Me.AdminResult)
-        Me.Panel2.Controls.Add(Me.Admin)
-        Me.Panel2.Controls.Add(Me.SuperAdmin)
+        Me.Panel2.Controls.Add(Me.DeathCheck)
+        Me.Panel2.Controls.Add(Me.AfterDeath)
         resources.ApplyResources(Me.Panel2, "Panel2")
         Me.Panel2.Name = "Panel2"
+        '
+        'DeathCheck
+        '
+        resources.ApplyResources(Me.DeathCheck, "DeathCheck")
+        Me.DeathCheck.Name = "DeathCheck"
+        Me.DeathCheck.UseVisualStyleBackColor = True
         '
         'HoboPanel
         '
@@ -237,6 +228,38 @@ Partial Class AdvancedSettings
         Me.Cook.ForeColor = System.Drawing.Color.White
         Me.Cook.Name = "Cook"
         '
+        'Panel1
+        '
+        Me.Panel1.Controls.Add(Me.CustomChckCheck)
+        Me.Panel1.Controls.Add(Me.CustomCheckPanel)
+        Me.Panel1.Controls.Add(Me.CustomCheck)
+        resources.ApplyResources(Me.Panel1, "Panel1")
+        Me.Panel1.Name = "Panel1"
+        '
+        'CustomChckCheck
+        '
+        resources.ApplyResources(Me.CustomChckCheck, "CustomChckCheck")
+        Me.CustomChckCheck.Name = "CustomChckCheck"
+        Me.CustomChckCheck.UseVisualStyleBackColor = True
+        '
+        'CustomCheckPanel
+        '
+        Me.CustomCheckPanel.BackColor = System.Drawing.Color.LightGray
+        Me.CustomCheckPanel.Controls.Add(Me.CustomCheckGroup)
+        resources.ApplyResources(Me.CustomCheckPanel, "CustomCheckPanel")
+        Me.CustomCheckPanel.Name = "CustomCheckPanel"
+        '
+        'CustomCheckGroup
+        '
+        resources.ApplyResources(Me.CustomCheckGroup, "CustomCheckGroup")
+        Me.CustomCheckGroup.Name = "CustomCheckGroup"
+        '
+        'CustomCheck
+        '
+        resources.ApplyResources(Me.CustomCheck, "CustomCheck")
+        Me.CustomCheck.ForeColor = System.Drawing.Color.White
+        Me.CustomCheck.Name = "CustomCheck"
+        '
         'ComingSoon
         '
         resources.ApplyResources(Me.ComingSoon, "ComingSoon")
@@ -269,13 +292,14 @@ Partial Class AdvancedSettings
         Me.ChiefPanel.PerformLayout()
         Me.CookPanel.ResumeLayout(False)
         Me.CookPanel.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        Me.CustomCheckPanel.ResumeLayout(False)
+        Me.CustomCheckPanel.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
-    Public WithEvents AdminResult As Label
-    Public WithEvents Admin As RadioButton
-    Public WithEvents SuperAdmin As RadioButton
-    Public WithEvents JobAdmin As Label
+    Public WithEvents AfterDeath As Label
     Public WithEvents NeedCangeFromPanel As Panel
     Public WithEvents Panele As FlowLayoutPanel
     Public WithEvents Panel2 As Panel
@@ -299,4 +323,11 @@ Partial Class AdvancedSettings
     Public WithEvents NeedChangeFrom As Label
     Public WithEvents ChangeFromPanel As Panel
     Public WithEvents NeedChangeFromText As TextBox
+    Friend WithEvents DeathCheck As CheckBox
+    Public WithEvents Panel1 As Panel
+    Friend WithEvents CustomChckCheck As CheckBox
+    Public WithEvents CustomCheck As Label
+    Friend WithEvents tip As ToolTip
+    Public WithEvents CustomCheckPanel As Panel
+    Public WithEvents CustomCheckGroup As TextBox
 End Class

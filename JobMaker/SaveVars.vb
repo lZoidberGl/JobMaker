@@ -93,6 +93,8 @@
     Public Shared CoChk As String = "false"
     Public Shared ChangeFromChk As String = "false"
     Public Shared ChangeFromTxt As String = "TEAM_"
+    Public Shared CustomCheckChk As String = "false"
+    Public Shared CustomCheckTxt As String = ""
     Public Shared Wchk1 As String = "false"
     Public Shared Wchk2 As String = "false"
     Public Shared Wchk3 As String = "false"
@@ -124,4 +126,5 @@
     Public Shared Wchk29 As String = "false"
     Public Shared Wchk30 As String = "false"
     Public Shared Wchk31 As String = "false"
+    Public Shared DeadCheck As String = "false"
 End Class
